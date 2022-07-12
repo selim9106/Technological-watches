@@ -37,7 +37,7 @@ ayant un objectif défini.
 Tout(e) incident/violation de sécurité entraînant des conséquences telles que:   
 - l'altération/perte/destruction
 - la divulgation ou l’accès non autorisé aux données.
-et qui par extension comprommet la confidentialité et l'intégrité
+et qui par extension compromet la confidentialité et l'intégrité
 
 [^3]:https://www.cnil.fr/sites/default/files/atoms/files/cybersecurite_-_chiffres_2021.pdf
 
@@ -87,7 +87,7 @@ Seules les données utiles à la réalisation des objectifs de l'entreprises peu
 - Démarche active de l'utilisateur (liberté)   
 - Requis **à nouveau** en cas d'utilisation des données déjà récoltées à d'autres fins  
 
-Exemple: case à cocher
+Exemple: case à cocher lors d'une mise à jour de la politique de confidentialité
   
   
 ### Transparence
@@ -98,7 +98,7 @@ Les individus doivent être informés:
 - des destinataires/identité du responsable de traitement
 - du caractère obligatoire/facultatif des réponses
 - de la durée de conservation (variable) [^4]
-- de la manière dont ils peuvent intervenir sur ces données (consultation, rectification suppression,...)   
+- de la manière dont ils peuvent intervenir sur ces données (consultation, rectification, suppression,...)   
 
 Remarque: il existe un droit d'opposition à l'utilisation des données pour motifs légitimes.
 [^4]: https://www.cnil.fr/fr/les-durees-de-conservation-des-donnees
@@ -115,7 +115,7 @@ Remarque: il existe un droit d'opposition à l'utilisation des données pour mot
 
 Sanctions graduelles:  
 
-- Avertissement/mise en demeure + rappel des règles;
+- Avertissement/mise en demeure + rappel des règles
 - Injonction, ordre de cessation immédiate des violations constatées
 - Limitation ou suspension temporaire des traitements ou des flux de données
 - **Sanctions administratives** pour les entreprises qui n'ont pas respecté l'injonction.
@@ -134,9 +134,9 @@ Note: Le 31 décembre 2021, la CNIL a sanctionné la société FACEBOOK IRELAND 
 
 ## What about Outside EU?
 
-### Maximillian Shcrems
+### Maximillian Schrems
 
-Activiste autricien qui milite pour la protection des données.  
+Activiste autrichien qui milite pour la protection des données.  
 
 Etudiant en droit, il demande à Facebook une copie de ses propres données et réalise après analyse que ses informations effacées sont toujours conservées par Facebook (sur des serveurs americains) et ne respectent pas le RGPD. 
 Il s'oppose aux transfer des données des européens vers les USA et suggère comme solution leur délocalisation vers l'Europe ou leur chiffrement.   
