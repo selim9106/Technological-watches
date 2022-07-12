@@ -40,7 +40,31 @@ Tout(e) incident/violation de sécurité entraînant des conséquences telles qu
 et qui par extension comprommet la confidentialité et l'intégrité
 
 [^3]:https://www.cnil.fr/sites/default/files/atoms/files/cybersecurite_-_chiffres_2021.pdf
-  
+
+## RDPG, Why ?
+
+**Objectifs**   
+
+Accroître:  
+1. la protection des personnes concernées par un traitement de leurs données à caractère personnel  
+2. la responsabilisation des acteurs de ce traitement  
+   
+**But also**
+    
+- Adaptation aux évolutions technologiques (commerce en ligne,...)   
+- Transparence vis-à-vis de l'internaute/du consommateur et liberté de contrôle   
+- Harmoniser les règles en UE   
+- offrir un cadre juridique aux professionnels
+   
+## RGPD, pour qui?
+
+Toute personne, entreprise, organisme qui traite des données personelles
+- établis en UE
+- dont l'activité est susceptible de concerner des citoyens ressortissants de l'UE
+- publics ou privés
+- ainsi que leurs sous-traitants
+
+
 ## Les principes
   
 ### Principe de finalité
@@ -84,30 +108,6 @@ Remarque: il existe un droit d'opposition à l'utilisation des données pour mot
 "Le responsable du traitement est tenu de prendre toutes précautions utiles, au regard de la nature des données et des risques présentés par le traitement, pour préserver la sécurité des données et, notamment, empêcher qu'elles soient déformées, endommagées, ou que des tiers non autorisés y aient accès."[^5]   
 
 [^5]:Article 121 de la loi Informatique et Libertés
-
-## RDPG, Why ?
-
-**Objectifs**   
-
-Accroître:  
-1. la protection des personnes concernées par un traitement de leurs données à caractère personnel  
-2. la responsabilisation des acteurs de ce traitement  
-   
-**But also**
-    
-- Adaptation aux évolutions technologiques (commerce en ligne,...)   
-- Transparence vis-à-vis de l'internaute/du consommateur et liberté de contrôle   
-- Harmoniser les règles en UE   
-- offrir un cadre juridique aux professionnels
-   
-## RGPD, pour qui?
-
-Toute personne, entreprise, organisme qui traite des données personelles
-- établis en UE
-- dont l'activité est susceptible de concerner des citoyens ressortissants de l'UE
-- publics ou privés
-- ainsi que leurs sous-traitants
-
 
 ## Sanctions[^6]
 
