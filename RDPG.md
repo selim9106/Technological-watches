@@ -139,7 +139,7 @@ Note: Le 31 décembre 2021, la CNIL a sanctionné la société FACEBOOK IRELAND 
 Activiste autrichien qui milite pour la protection des données.  
 
 Etudiant en droit, il demande à Facebook une copie de ses propres données et réalise après analyse que ses informations effacées sont toujours conservées par Facebook (sur des serveurs americains) et ne respectent pas le RGPD. 
-Il s'oppose aux transfer des données des européens vers les USA et suggère comme solution leur délocalisation vers l'Europe ou leur chiffrement.   
+Il s'oppose aux transfert des données des européens vers les USA et suggère comme solution leur délocalisation vers l'Europe ou leur chiffrement.   
 Il obtient en 2015 l'invalidation du *Safe harbor*[^8] CJUE (Cour de justice de l'Union européenne).[^9].   
 De nouvelles négociations entre les états membres de l'UE et les états-unis donne naissance au *EU-US Privacy Shield* mais sera invalidé à nouveau par la CJUE après une nouvelle plainte de Maximillian Schrems.
 
@@ -150,7 +150,7 @@ De nouvelles négociations entre les états membres de l'UE et les états-unis d
 
 
 ### RGPD VS CLOUD Act
-La CLOUD act = Clarifying Lawful Overseas Use of Data Act est une noi extra-territoriale qui permet aux instances de justice américaine disposant d’un mandat et de l'autorisation d’un juge, d'accéder à des données, (telles que des communications electroniques) auxprès des fournisseurs de services établis sur le territoire des États-Unis, y compris les données hébergées dans des serveurs informatiques situés à l'étranger.   
+La CLOUD act = Clarifying Lawful Overseas Use of Data Act est une loi extra-territoriale qui permet aux instances de justice américaine disposant d’un mandat et de l'autorisation d’un juge, d'accéder à des données, (telles que des communications electroniques) auxprès des fournisseurs de services établis sur le territoire des États-Unis, y compris les données hébergées dans des serveurs informatiques situés à l'étranger.   
 
 Cette loi s'impose aux GAFAM (Google, Apple, Facebook, Amazon et Microsoft) et aux entreprises étrangères ayant une activité aux USA et ne nécessite pas pour les instances judiciaires d'avertir les personnes concernées, ni leur pays de résidence, ni le pays où est localisé le serveur qui contient ces données.   
 
