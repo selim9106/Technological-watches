@@ -156,7 +156,7 @@ Cette loi s'impose aux GAFAM (Google, Apple, Facebook, Amazon et Microsoft) et a
 
 L'argument invoqué est une mesure de protection (lutte contre le terrorisme,...).
 
-Les autorités françaises cherchent à mettre au point un dispositif d'alerte pour les entreprises françaises qui hebergent des données sur des serveurs américains  dès lors que la justice américaine cherche à y accéder.
+Les autorités françaises cherchent à mettre au point un dispositif d'alerte pour les entreprises françaises qui hébergent des données sur des serveurs américains  dès lors que la justice américaine cherche à y accéder.
 
 ### Accord de principe
 
@@ -185,7 +185,7 @@ Exemples:
 - [Autorité de protection des données de Belgique](https://www.autoriteprotectiondonnees.be/citoyen)
 - [Le MOOC de la CNIL/Atelier RGPD](https://www.cnil.fr/fr/le-mooc-de-la-cnil-est-de-retour-dans-une-nouvelle-version-enrichie)
 - [Boîte à outils RGPD](https://www.ucm.be/produits/boite-outils-gdpr)
-- [Porttic.be | plateforme d'échanges autour du RGPD] (https://www.porttic.be/)
+- [Porttic.be | plateforme d'échanges autour du RGPD](https://www.porttic.be/)
 
 
 
