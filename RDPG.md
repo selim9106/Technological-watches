@@ -83,7 +83,6 @@ Remarque: il existe un droit d'opposition à l'utilisation des données pour mot
 ### Sécurité  
 "Le responsable du traitement est tenu de prendre toutes précautions utiles, au regard de la nature des données et des risques présentés par le traitement, pour préserver la sécurité des données et, notamment, empêcher qu'elles soient déformées, endommagées, ou que des tiers non autorisés y aient accès."[^5]   
 
-(chiffrement, 
 [^5]:Article 121 de la loi Informatique et Libertés
 
 ## RDPG, Why ?
@@ -130,7 +129,8 @@ Sanctions graduelles:
 
 Note: Le 31 décembre 2021, la CNIL a sanctionné la société FACEBOOK IRELAND LIMITED d’une amende d’un montant de 60 millions d’euros parce qu’il n’est pas permis aux utilisateurs du réseau social facebook.com résidant en France de refuser les cookies aussi facilement que de les accepter.[^7]
 
-[^6]:https://www.cnil.fr/fr/cookies-sanction-de-60-millions-deuros-lencontre-de-facebook-ireland-limited
+[^6]: https://fr.wikipedia.org/wiki/R%C3%A8glement_g%C3%A9n%C3%A9ral_sur_la_protection_des_donn%C3%A9es
+[^7]:https://www.cnil.fr/fr/cookies-sanction-de-60-millions-deuros-lencontre-de-facebook-ireland-limited
 
 ## What about Outside EU?
 
@@ -144,7 +144,7 @@ Il obtient en 2015 l'invalidation du *Safe harbor*[^8] CJUE (Cour de justice de 
 De nouvelles négociations entre les états membres de l'UE et les états-unis donne naissance au *EU-US Privacy Shield* mais sera invalidé à nouveau par la CJUE après une nouvelle plainte de Maximillian Schrems.
 
 
-[^6]: https://fr.wikipedia.org/wiki/R%C3%A8glement_g%C3%A9n%C3%A9ral_sur_la_protection_des_donn%C3%A9es
+
 [^8]: *Sphère de sécurité* qui encadrait jusque là le transfert des données des internautes européens vers les États-Unis
 [^9]: https://www.silicon.fr/max-schrems-le-tombeur-du-safe-harbor-sattaque-a-la-localisation-des-donnees-133129.html
 
