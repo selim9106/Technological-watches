@@ -162,13 +162,14 @@ Les autorités françaises cherchent à mettre au point un dispositif d'alerte p
 
 Un nouvel accord de principe conclu ce vendredi 25 mars 2022 devra être concrétisé pour faire l’objet d’une nouvelle décision d’adéquation.[^10]
 
-[^10]:https://www.droit-technologie.org/actualites/un-nouvel-accord-pour-le-transfert-des-donnees-vers-les-etats-unis/
+[^10]: https://www.droit-technologie.org/actualites/un-nouvel-accord-pour-le-transfert-des-donnees-vers-les-etats-unis/
 
 ### La protection des données dans le monde
 
 [Carte interactive](https://www.cnil.fr/fr/la-protection-des-donnees-dans-le-monde)
 
-Exemples:   
+Exemples:  
+
 - [Vinted](https://www.vinted.be/privacy-policy)
 - [Beyoncé shop](https://shop.beyonce.com/pages/privacy)
 
