@@ -59,7 +59,7 @@ Firebase intègre
 
 ### Configuration
 
-- 
+- ![Administration](unamed.png)
 
 
 
