@@ -59,7 +59,7 @@ Decouvrir comment mieux développer des logiciels (par la pratique et en aidant 
 Toute méthode dite agile prévoit le **fractionnement des étapes de développement logiciel**, la **fixation d’objectifs à court terme** et requiert d'**ajuster, au besoin, les objectifs pour répondre aux attentes du client**. L'accent est mis sur la relation équipe-client et la collaboration/communication des membres de l'équipe.   
 Flexibilité et souplesse dans l’organisation sont les deux piliers fondamentaux des méthodes agile.[^4]
 
-
+<img src="0_65DbU_Hc5fBMIrbO.png" width=400>
 
 [^4]: [Journal du Net: Méthode agile : définition, comparatif et avantages](https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443838-methode-agile-definition-comparatif-et-avantages/)
 
@@ -77,6 +77,56 @@ Flexibilité et souplesse dans l’organisation sont les deux piliers fondamenta
 
 ## SCRUM
 
+La méthode Scrum (en français *mêlée*), emprunte son nom au rugby, sport qui requiert une soudée avançant dans la même direction. Il s'agit de la méthodologie Agile la plus utilisée dans la gestion de projet.   
+Elle est majoritairement utilisée dans le developpement d'applications web.  
+
+### Histoire
+
+### Principes
+
+La méthode SCRUM planifie des *Sprints*, soit des cycles de production courts (1 à 4 semaines) ciblés sur des fragments du produit/service. Ce fonctionnement permet de faire le point régulièrement, en équipe, sur l'état d'avancement du projet et de l'adapter aux éventuelles nouvelles exigeances.   
+
+On peut dégager 6 principes
+
+- Le **contrôle du processus** empirique ;
+- L'**autonomie** et l'auto-organisation de l'équipe ;
+- La **collaboration** ;
+- La hiérarchisation ou **priorisation basée sur la valeur** ;
+- Les dates d'**échéance** ;
+- Le **développement itératif**.
+
+### Avantages
+
+- Les cycles courts permettent rapidement une itération utilisable du produit ;
+- Validation/contrôle du client à chaque sprint et prise en compte des évolutions (besoins, technologies) ;
+- Production incrémentale
+
+### Les piliers de SCRUM
+
+- La **transparence** : Toutes les parties prenantes (management, équipe projet, utilisateur) ont connaissance des information nécessaires à la compréhension du projet ;
+- L'**inspection** : évaluations régulières destinées à vérifier que le développement est toujours en phase avec les demandes du client ; 
+- L'**adaptation** : corriger la trajectoire du projet si des écarts avec les résultats à atteindre sont détectés lors de la phase d'inspection ;
+
+### Les 5 valeurs de Scrum (FORCE)
+
+- La **focalisation** de l'équipe sur le développement à réaliser ;
+- L'**ouverture** sur le mode de fonction de Scrum et sur la **communication interpersonnelle** pour avancer et résoudre les problèmes ensemble ;
+- Le **respect** mutuel ;
+- Le **courage** de l'équipe projet afin de relever les défis en toute autonomie ;
+- L'**engagement** : Chacun s'engage à atteindre les objectifs de chaque sprint. 
+
+### Le Scrum Master
+
+Il est coutume de nommer un Scrum Master afin de garantir le respect du framework.   
+Le Scrum Master est chargé de planifier les **étapes de chaque sprint**, à savoir, la **plannification**, le **daily meeting**, le **sprint review** et le **sprint retrospective**.
+Il identifie les points de blocage et anime les réunions destinées à trouver des solutions pour y remédier.
+
+Enfin, il rédige le graphique d'avancement (burndown chart ou BDC) qui décrit le volume de tâches restant à réaliser sur l'axe vertical et le timing projeté sur l'axe horizontal.
+
+Face à ces défis, on attend d'un scrum master qu'il maîtrise l'infrastructure Scrum. Il doit également faire preuve de pédagogie et opter pour un mode de management participatif axé sur le coaching. Partant de là, le rôle de srcum master sera le plus souvent dévolu au chef de projet.
+
+
+<img src="wZll2tv7A1xaNx8YkIAegQ.png" width=400>
 
 ### Scrumban: une méthode hybride
 
@@ -92,5 +142,6 @@ Flexibilité et souplesse dans l’organisation sont les deux piliers fondamenta
 - [Wikipedia | Modèle en cascade](https://fr.wikipedia.org/wiki/Mod%C3%A8le_en_cascade)
 - [Wikipedia | Manifeste Agile](https://fr.wikipedia.org/wiki/Manifeste_agile)
 - [Wikipedia | Méthode Agile](https://fr.wikipedia.org/wiki/M%C3%A9thode_agile)
+- [Journal du Net | Scrum : C'est quoi ? Définition, guide..](https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443834-scrum-maitriser-le-framework-star-des-methodes-agiles/)
 - 
 
