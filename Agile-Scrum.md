@@ -86,20 +86,24 @@ Elle est majoritairement utilisée dans le developpement d'applications web.
 
 La méthode SCRUM planifie des *Sprints*, soit des cycles de production courts (1 à 4 semaines) ciblés sur des fragments du produit/service. Ce fonctionnement permet de faire le point régulièrement, en équipe, sur l'état d'avancement du projet et de l'adapter aux éventuelles nouvelles exigeances.   
 
-On peut dégager 6 principes
+On peut dégager 6 principes :
 
 - Le **contrôle du processus** empirique ;
 - L'**autonomie** et l'auto-organisation de l'équipe ;
 - La **collaboration** ;
 - La hiérarchisation ou **priorisation basée sur la valeur** ;
 - Les dates d'**échéance** ;
-- Le **développement itératif**.
+- Le **développement itératif**.   
+
+Des **daily scrum meetings** permettent à l'équipe de développement de faire le point au quotidien (tâches réalisées, points de blocage, objetifs du jour) et use comme support d'un [scrum board], inspiré de la méthode Kanban
 
 ### Avantages
 
 - Les cycles courts permettent rapidement une itération utilisable du produit ;
 - Validation/contrôle du client à chaque sprint et prise en compte des évolutions (besoins, technologies) ;
 - Production incrémentale
+
+
 
 ### Les piliers de SCRUM
 
@@ -127,15 +131,18 @@ Il identifie les points de blocage et anime les réunions destinées à trouver 
 
 #### Product Owner
 A côté du Scrum Master, un **Product Owner** représentera le client au sein de l'équipe projet.
-Celui-ci alimente et met à jour le [backlog](https://hubvisory.com/blog/qu-est-qu-un-backlog-comment-le-construire-et-le-gerer/) 
+Celui-ci **reccueille les besoins des parties prenantes et les traduits en fonctionnalités** destinées à être développées par l'équipe de production.   
+Pour ce faire, il rédige et alimente régulièrement un [backlog](https://hubvisory.com/blog/qu-est-qu-un-backlog-comment-le-construire-et-le-gerer/) en items appelés [*user stories*](https://hubvisory.com/blog/user-stories-comment-bien-les-rediger/)[^6] classés par ordre de priorité en fonction de quatre critères :
+- la **valeur business** introduite ;
+- la **connaissance nécessaire** à la réalisation (besoin de formations ?) ;
+- l'**effort à produire** par l'équipe projet ;
+- **les risques** (contraintes associées) pouvant générer des imprévus (prérequis, appels a des tiers ...).   
 
+[^6]: *"Phrase simple, rédigée dans un langage courant, qui permet de décrire avec suffisamment de précision le contenu d’une fonctionnalité à développer. Dans la méthode agile Scrum dont elle est issue, la User Story est censée illustrer un besoin fonctionnel exprimé par les types d’utilisateurs."* (Source:[Hubvisory | Comment bien rédiger une User Story ?](https://hubvisory.com/blog/user-stories-comment-bien-les-rediger/))
 
+<img src="image1_1_1_ikgcix.png" width=400>
 
-le backlog du projet en items ou fonctionnalités métier à réaliser, avec pour chacun des spécifications détaillées. En langage Scrum, ces items sont appelés les users stories. Elles décrivent le besoin du client en langage simple et compréhensible par toutes les parties prenantes.  
-
-Au sein du backlog, le product owner classe les users stories par ordre de priorité en fonction de quatre critères : la valeur business introduite, la connaissance technique et métier nécessaire à la réalisation (besoin de formations ?), l'effort à produire par l'équipe projet, et les risques c'est-à-dire les contraintes associées pouvant générer des impondérables (prérequis techniques et métier, sollicitation d'un fournisseur...).
-
-
+Pour faciliter les retours des utilisateurs, Scrum conseille de mettre en place si besoin des **user tests** à l'issue de chaque sprint.
 
 
 ### Scrumban: une méthode hybride
