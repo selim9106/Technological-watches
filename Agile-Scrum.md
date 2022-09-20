@@ -115,18 +115,28 @@ On peut dégager 6 principes
 - Le **courage** de l'équipe projet afin de relever les défis en toute autonomie ;
 - L'**engagement** : Chacun s'engage à atteindre les objectifs de chaque sprint. 
 
-### Le Scrum Master
+### Scrum Master & Product Owner
 
-Il est coutume de nommer un Scrum Master afin de garantir le respect du framework.   
+#### Scrum Master
+Il est coutume de nommer un **Scrum Master** (souvent le chef de projet, certifié SCRUM) afin de garantir le respect du framework.   
 Le Scrum Master est chargé de planifier les **étapes de chaque sprint**, à savoir, la **plannification**, le **daily meeting**, le **sprint review** et le **sprint retrospective**.
-Il identifie les points de blocage et anime les réunions destinées à trouver des solutions pour y remédier.
+Il identifie les points de blocage et anime les réunions destinées à trouver des solutions pour y remédier et conçoit le BDC ([burndown chart](https://fr.wikipedia.org/wiki/Burndown_chart)) qui illustre la quantité de travail restant (axe vertical) pour le temmps estimé (axe horizontal).
 
-Enfin, il rédige le graphique d'avancement (burndown chart ou BDC) qui décrit le volume de tâches restant à réaliser sur l'axe vertical et le timing projeté sur l'axe horizontal.
+<img src="wZll2tv7A1xaNx8YkIAegQ.png" width=400>[^5]
+[^5]: Burndown chart example (Source: [DZone | The ideal Burndown Chart](https://dzone.com/articles/the-ideal-burn-down-chart))
 
-Face à ces défis, on attend d'un scrum master qu'il maîtrise l'infrastructure Scrum. Il doit également faire preuve de pédagogie et opter pour un mode de management participatif axé sur le coaching. Partant de là, le rôle de srcum master sera le plus souvent dévolu au chef de projet.
+#### Product Owner
+A côté du Scrum Master, un **Product Owner** représentera le client au sein de l'équipe projet.
+Celui-ci alimente et met à jour le [backlog](https://hubvisory.com/blog/qu-est-qu-un-backlog-comment-le-construire-et-le-gerer/) 
 
 
-<img src="wZll2tv7A1xaNx8YkIAegQ.png" width=400>
+
+le backlog du projet en items ou fonctionnalités métier à réaliser, avec pour chacun des spécifications détaillées. En langage Scrum, ces items sont appelés les users stories. Elles décrivent le besoin du client en langage simple et compréhensible par toutes les parties prenantes.  
+
+Au sein du backlog, le product owner classe les users stories par ordre de priorité en fonction de quatre critères : la valeur business introduite, la connaissance technique et métier nécessaire à la réalisation (besoin de formations ?), l'effort à produire par l'équipe projet, et les risques c'est-à-dire les contraintes associées pouvant générer des impondérables (prérequis techniques et métier, sollicitation d'un fournisseur...).
+
+
+
 
 ### Scrumban: une méthode hybride
 
