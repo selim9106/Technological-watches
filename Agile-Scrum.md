@@ -6,7 +6,7 @@ Les méthodologies Agile sont issues du *Manifeste pour le développement agile 
 Elles s'opposent au [modèle en cascade](https://fr.wikipedia.org/wiki/Mod%C3%A8le_en_cascade) (*waterfall*) qui se base sur des exigences exprimées en début de projet et où chaque phase ne commence qu'après avoir validé les résultats de la précédente.   
 [^1]: [Wikipedia | Manifeste Agile](https://fr.wikipedia.org/wiki/Manifeste_agile);
 
-<img src="837px-Modèle_en_cascade_générique.png" width=400>[^2]   
+<img src="837px-Modèle_en_cascade_générique.png" width=700>[^2]   
 
 ### Les défaults du modèle en cascade
 
@@ -77,12 +77,17 @@ Flexibilité et souplesse dans l’organisation sont les deux piliers fondamenta
 
 ## SCRUM
 
-La méthode Scrum (en français *mêlée*), emprunte son nom au rugby, sport qui requiert une soudée avançant dans la même direction. Il s'agit de la méthodologie Agile la plus utilisée dans la gestion de projet.   
+La méthode Scrum (en français *mêlée*), emprunte son nom au rugby, sport qui requiert une equipe soudée avançant dans la même direction. Il s'agit de la méthodologie Agile la plus utilisée dans la gestion de projet.   
 Elle est majoritairement utilisée dans le developpement d'applications web.  
 
 ### Histoire
 
- Ken Schwaber et Jeff Sutherland 
+**Hirotaka Takeuchi** et **Ikujiro Nonaka**, chercheurs et professeurs à l'université, évoquent pour la première fois la ***rugby apporach*** dans une publication intitulée *The New New Product Development Game*, une **méthode holistique destinée à optimiser la vitesse et flexibilité dans le développement de nouveaux produits logiciels**.
+
+**Ken Schwaber** et **Jeff Sutherland **evoque en 1995 les fondements de ce qui deviendra la méthode SCRUM lors de l'OOPSLA[^5].   
+Ensemble, ils rédigent le guide officiel de Scrum, mis à disposition gratuitement par Scrum Alliance. Ken Schwaver quitte la Scrum Alliance en 2009 suite à des désaccords avec le Conseil d'Administration. Il fondera ensuite *Scrum.org*.
+[^5]: L'*Object-Oriented Programming, Systems, Languages & Applications* est une conférences annuelle organisée par le [SIGPLAN (Special Interest Group on Programming Language)](https://fr.wikipedia.org/wiki/Special_Interest_Group_on_Programming_Languages) de l'[ACM (Association for Computing Machinery)](https://fr.wikipedia.org/wiki/Association_for_Computing_Machinery) (Source : [Wikipedia | OOPSLA](https://fr.wikipedia.org/wiki/OOPSLA))
+
 
 ### Principes
 
@@ -97,24 +102,23 @@ On peut dégager 6 principes :
 - Les dates d'**échéance** ;
 - Le **développement itératif**.   
 
-Des **daily scrum meetings** permettent à l'équipe de développement de faire le point au quotidien (tâches réalisées, points de blocage, objetifs du jour) et use comme support d'un [scrum board], inspiré de la méthode Kanban.
+Des **daily scrum meetings** permettent à l'équipe de développement de faire le point au quotidien (tâches réalisées, points de blocage, objetifs du jour) et use comme support d'un **[scrum board](https://www.appvizer.fr/magazine/operations/gestion-de-projet/scrum-board)**, inspiré de la méthode Kanban.
 
-<img src="Scrum-Board.png" width=400>[^5]
-[^5]: [Nira | The Top 10 Scrum Boards You Should Be Using](https://nira.com/scrum-board/)
+<img src="Scrum-Board.png" width=400>[^6]
+[^6]: [Nira | The Top 10 Scrum Boards You Should Be Using](https://nira.com/scrum-board/)
 
 ### Avantages
 
 - Les cycles courts permettent rapidement une itération utilisable du produit ;
 - Validation/contrôle du client à chaque sprint et prise en compte des évolutions (besoins, technologies) ;
-- Production incrémentale
-
+- Production incrémentale.
 
 
 ### Les piliers de SCRUM
 
 - La **transparence** : Toutes les parties prenantes (management, équipe projet, utilisateur) ont connaissance des information nécessaires à la compréhension du projet ;
 - L'**inspection** : évaluations régulières destinées à vérifier que le développement est toujours en phase avec les demandes du client ; 
-- L'**adaptation** : corriger la trajectoire du projet si des écarts avec les résultats à atteindre sont détectés lors de la phase d'inspection ;
+- L'**adaptation** : corriger la trajectoire du projet si des écarts avec les résultats à atteindre sont détectés lors de la phase d'inspection.
 
 ### Les 5 valeurs de Scrum (FORCE)
 
@@ -128,28 +132,36 @@ Des **daily scrum meetings** permettent à l'équipe de développement de faire 
 
 #### Scrum Master
 Il est coutume de nommer un **Scrum Master** (souvent le chef de projet, certifié SCRUM) afin de garantir le respect du framework.   
-Le Scrum Master est chargé de planifier les **étapes de chaque sprint**, à savoir, la **plannification**, le **daily meeting**, le **sprint review** et le **sprint retrospective**.
-Il identifie les points de blocage et anime les réunions destinées à trouver des solutions pour y remédier et conçoit le BDC ([burndown chart](https://fr.wikipedia.org/wiki/Burndown_chart)) qui illustre la quantité de travail restant (axe vertical) pour le temmps estimé (axe horizontal).
+Le Scrum Master est chargé de planifier les **étapes de chaque sprint**, à savoir :   
 
-<img src="wZll2tv7A1xaNx8YkIAegQ.png" width=400>[^6]
-[^6]: Burndown chart example (Source : [DZone | The ideal Burndown Chart](https://dzone.com/articles/the-ideal-burn-down-chart))
+- le **spring planning** : organisation du cyle de développement, définition des objectifs et du temps imparti ;
+- le **daily meeting** : mise à jour du plan d'objectifs avec l'équipe de développement ;
+- le **sprint review** : en fin de sprint, **l'équipe présente les incréments apportés au produit** + mise au point et évaluation ;
+- la **sprint retrospective** : dans la foulée du sprint review, les membres de l'équipe de développement débrieffent sur le sprint (problèmes rencontrés, point d'amélioration) dans un objectif d'amélioration continue de sorte que le prochain sprint soit plus efficace que le précédent.
+
+Le Scrum Master conçoit le BDC ([burndown chart](https://fr.wikipedia.org/wiki/Burndown_chart)) qui illustre la quantité de travail restant (axe vertical) pour le temmps estimé (axe horizontal).
+
+<img src="wZll2tv7A1xaNx8YkIAegQ.png" width=600>[^7]
+[^7]: Burndown chart example (Source : [DZone | The ideal Burndown Chart](https://dzone.com/articles/the-ideal-burn-down-chart))
 
 #### Product Owner
 A côté du Scrum Master, un **Product Owner** représentera le client au sein de l'équipe projet. Il est le garant de la vision produit.
 Celui-ci **reccueille les besoins des parties prenantes et les traduits en fonctionnalités** destinées à être développées par l'équipe de production.   
-Pour ce faire, il rédige et alimente régulièrement un [backlog](https://hubvisory.com/blog/qu-est-qu-un-backlog-comment-le-construire-et-le-gerer/) en items appelés [*user stories*](https://hubvisory.com/blog/user-stories-comment-bien-les-rediger/)[^7] classés par ordre de priorité en fonction de quatre critères :
+Pour ce faire, il rédige et alimente régulièrement un [backlog](https://hubvisory.com/blog/qu-est-qu-un-backlog-comment-le-construire-et-le-gerer/) en items appelés [*user stories*](https://hubvisory.com/blog/user-stories-comment-bien-les-rediger/)[^8] classés par ordre de priorité en fonction de quatre critères :
 - la **valeur business** introduite ;
 - la **connaissance nécessaire** à la réalisation (besoin de formations ?) ;
 - l'**effort à produire** par l'équipe projet ;
 - **les risques** (contraintes associées) pouvant générer des imprévus (prérequis, appels a des tiers ...).   
 
-[^7]: *"Phrase simple, rédigée dans un langage courant, qui permet de décrire avec suffisamment de précision le contenu d’une fonctionnalité à développer. Dans la méthode agile Scrum dont elle est issue, la User Story est censée illustrer un besoin fonctionnel exprimé par les types d’utilisateurs."* (Source : [Hubvisory | Comment bien rédiger une User Story ?](https://hubvisory.com/blog/user-stories-comment-bien-les-rediger/))
+[^8]: *"Phrase simple, rédigée dans un langage courant, qui permet de décrire avec suffisamment de précision le contenu d’une fonctionnalité à développer. Dans la méthode agile Scrum dont elle est issue, la User Story est censée illustrer un besoin fonctionnel exprimé par les types d’utilisateurs."* (Source : [Hubvisory | Comment bien rédiger une User Story ?](https://hubvisory.com/blog/user-stories-comment-bien-les-rediger/))
 
-<img src="image1_1_1_ikgcix.png" width=400>
+<img src="image1_1_1_ikgcix.png" width=600>
 
 Pour faciliter les retours des utilisateurs, Scrum conseille de mettre en place si besoin des **user tests** à l'issue de chaque sprint.
 
-<img src="19486383.png" width=400>
+<img src="19486383.png" width=800>[^9]
+
+[^9]:(Source : [Journal du Net | Sprint : du planning à la rétrospective Scrum](https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443836-sprint-scrum/#sprint-scrum))
 
 ### Scrumban: une méthode hybride
 
@@ -160,9 +172,10 @@ Contrairement à SCRUM qui vise davantage à coordonner un projet unique, **Kanb
 
 ## Liens
 
-- [L'histoire du Manifeste Agile](https://wikiagile.cesi.fr/pages/L'Histoire%20du%20Manifeste%20Agile.html) ;
-- [Wikipedia | Limitations et extensions des méthodes agiles](https://fr.wikipedia.org/wiki/Limitations_et_extensions_des_m%C3%A9thodes_agiles) ;
+- ["L'histoire du Manifeste Agile"](https://wikiagile.cesi.fr/pages/L'Histoire%20du%20Manifeste%20Agile.html) ;
+- [Wikipedia | "Limitations et extensions des méthodes agiles"](https://fr.wikipedia.org/wiki/Limitations_et_extensions_des_m%C3%A9thodes_agiles) ;
 - [Scrum.org](https://www.scrum.org/) ;
+- [Youtube | Scrum.org "A Brief Overview of the Scrum Framework"](https://www.youtube.com/watch?v=gy1c4_YixCo&t=101s) ;
 - [The Scrum Guide](https://scrumguides.org/scrum-guide.html) ;
 - [The Scrum Guide PDF (download link)](https://scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf) ;
 - [Le Guide Scrum PDF (lien de téléchargement)](https://scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-French.pdf) ;
@@ -170,12 +183,25 @@ Contrairement à SCRUM qui vise davantage à coordonner un projet unique, **Kanb
 - [ScrumAlliance | Scrum certifications](https://www.scrumalliance.org/get-certified) ;
 - [AgilBee | Formations Agile](https://www.agilbee.com/nos-formations/) ;
 - [Scrum League | Certifications SCRUM](https://scrum-league.org/) ;
+- [Aubry Conseil (blog), auteur des livres *SCRUM* et *L'art de devenir une équipe agile*](https://www.aubryconseil.com/)
+- [Asana | "Méthode Scrumban : une approche Agile hybride"](https://asana.com/fr/resources/scrumban)
+- [Appvizer | "Rangez vos post-its : voici 10 outils scrum à tester d'urgence pour gérer vos projets en toute agilité"](https://www.appvizer.fr/magazine/operations/gestion-de-projet/outils-scrum)
 
 ## Bibliographie
-- [Wikipedia | Modèle en cascade](https://fr.wikipedia.org/wiki/Mod%C3%A8le_en_cascade)
-- [Wikipedia | Manifeste Agile](https://fr.wikipedia.org/wiki/Manifeste_agile)
-- [Wikipedia | Méthode Agile](https://fr.wikipedia.org/wiki/M%C3%A9thode_agile)
-- [Journal du Net | Scrum : C'est quoi ? Définition, guide..](https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443834-scrum-maitriser-le-framework-star-des-methodes-agiles/)
-- [Journal du Net | Sprint : du planning à la rétrospective Scrum](https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443836-sprint-scrum/#sprint-scrum) ;
-- 
+- [Wikipedia | "Modèle en cascade"](https://fr.wikipedia.org/wiki/Mod%C3%A8le_en_cascade)
+- [Wikipedia | "Manifeste Agile"](https://fr.wikipedia.org/wiki/Manifeste_agile)
+- [Wikipedia | "Méthode Agile"](https://fr.wikipedia.org/wiki/M%C3%A9thode_agile)
+- [Wikipedia | "Scrum (Développement)"](https://fr.wikipedia.org/wiki/Scrum_(d%C3%A9veloppement))
+- [Wikipedia | "Ken Schwaber"](https://fr.wikipedia.org/wiki/Ken_Schwaber)
+- [Scrum.org | "What is Scrum?"](https://www.scrum.org/resources/what-is-scrum/)
+- [Journal du Net | "Scrum : C'est quoi ? Définition, guide.."](https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443834-scrum-maitriser-le-framework-star-des-methodes-agiles/)
+- [Journal du Net | Sprint : du planning à la rétrospective Scrum](https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443836-sprint-scrum/#sprint-scrum)
+- [Wemanity|Weblog "Méthode Scrum Agile : définition et mode d’emploi"](https://weblog.wemanity.com/fr/la-methode-scrum-definition-et-mode-demploi/#principes)
+- [Mailjet | "Méthode Agile : présentation de la méthode Scrum"](https://www.mailjet.com/fr/blog/bonnes-pratiques-emailing/methode-agile-scrum/)
+- [Agiliste.fr | "Introduction aux méthodes agiles et Scrum"](https://agiliste.fr/introduction-methodes-agiles/)
+- [Trello blog | "Gestion de projets: méthode Agile et Scrum pour les nuls"](https://blog.trello.com/fr/methode-agile-scrum-gestion-projet#:~:text=Dans%20la%20m%C3%A9thode%20agile%20de,est%20une%20dur%C3%A9e%20commun%C3%A9ment%20utilis%C3%A9e.)
+- [tuleap | "Comprendre la méthode Agile Scrum en 10 min"](https://www.tuleap.org/fr/agile/comprendre-methode-agile-scrum-10-minutes)
+- [Planzone | "Qu'est-ce que la méthodologie Scrum ?"](https://www.planzone.fr/blog/quest-ce-que-la-methodologie-scrum)
+- [Atlassian | "Qu'est-ce que Scrum ?"](https://www.atlassian.com/fr/agile/scrum)
+- [Unow | "Mais qui est donc le Product Owner ?"](https://www.unow.fr/blog/le-coin-des-experts/product-owner/)
 
