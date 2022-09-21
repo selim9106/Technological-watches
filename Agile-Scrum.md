@@ -134,7 +134,7 @@ Des **daily scrum meetings** permettent à l'équipe de développement de faire 
 Il est coutume de nommer un **Scrum Master** (souvent le chef de projet, certifié SCRUM) afin de garantir le respect du framework.   
 Le Scrum Master est chargé de planifier les **étapes de chaque sprint**, à savoir :   
 
-- le **spring planning** : organisation du cyle de développement, définition des objectifs et du temps imparti ;
+- le **sprint planning** : organisation du cyle de développement, définition des objectifs et du temps imparti ;
 - le **daily meeting** : mise à jour du plan d'objectifs avec l'équipe de développement ;
 - le **sprint review** : en fin de sprint, **l'équipe présente les incréments apportés au produit** + mise au point et évaluation ;
 - la **sprint retrospective** : dans la foulée du sprint review, les membres de l'équipe de développement débrieffent sur le sprint (problèmes rencontrés, point d'amélioration) dans un objectif d'amélioration continue de sorte que le prochain sprint soit plus efficace que le précédent.
