@@ -159,9 +159,9 @@ Pour ce faire, il rédige et alimente régulièrement un [backlog](https://hubvi
 
 Pour faciliter les retours des utilisateurs, Scrum conseille de mettre en place si besoin des **user tests** à l'issue de chaque sprint.
 
-<img src="19486383.png" width=800>[^9]
+<img src="Scrum-process-schema-FR-small.png" width=800>[^9]
 
-[^9]:(Source : [Journal du Net | Sprint : du planning à la rétrospective Scrum](https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443836-sprint-scrum/#sprint-scrum))
+[^9]:(Source : [tuleap | "Comprendre la méthode Agile Scrum en 10 min"](https://www.tuleap.org/fr/agile/comprendre-methode-agile-scrum-10-minutes))
 
 ### Scrumban: une méthode hybride
 
