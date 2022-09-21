@@ -82,9 +82,9 @@ Elle est majoritairement utilisée dans le developpement d'applications web.
 
 ### Histoire
 
-**Hirotaka Takeuchi** et **Ikujiro Nonaka**, chercheurs et professeurs à l'université, évoquent pour la première fois la ***rugby apporach*** dans une publication intitulée *The New New Product Development Game*, une **méthode holistique destinée à optimiser la vitesse et flexibilité dans le développement de nouveaux produits logiciels**.
+**Hirotaka Takeuchi** et **Ikujiro Nonaka**, chercheurs et professeurs à l'université, évoquent pour la première fois la ***rugby approach*** dans une publication intitulée *The New New Product Development Game*, une **méthode holistique destinée à optimiser la vitesse et flexibilité dans le développement de nouveaux produits logiciels**.
 
-**Ken Schwaber** et **Jeff Sutherland **evoque en 1995 les fondements de ce qui deviendra la méthode SCRUM lors de l'OOPSLA[^5].   
+**Ken Schwaber** et **Jeff Sutherland** évoquent en 1995 les fondements de ce qui deviendra la méthode SCRUM lors de l'OOPSLA[^5].   
 Ensemble, ils rédigent le guide officiel de Scrum, mis à disposition gratuitement par Scrum Alliance. Ken Schwaver quitte la Scrum Alliance en 2009 suite à des désaccords avec le Conseil d'Administration. Il fondera ensuite *Scrum.org*.
 [^5]: L'*Object-Oriented Programming, Systems, Languages & Applications* est une conférences annuelle organisée par le [SIGPLAN (Special Interest Group on Programming Language)](https://fr.wikipedia.org/wiki/Special_Interest_Group_on_Programming_Languages) de l'[ACM (Association for Computing Machinery)](https://fr.wikipedia.org/wiki/Association_for_Computing_Machinery) (Source : [Wikipedia | OOPSLA](https://fr.wikipedia.org/wiki/OOPSLA))
 
