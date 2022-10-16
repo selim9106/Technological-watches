@@ -62,7 +62,7 @@ NB: Google annonce la fin de la collecte des cookies tiers pour 2023 [^4]
 
 ### [Configuration](https://support.google.com/analytics/topic/9303319?hl=fr&ref_topic=9143232) [^5][^6]
 
-<img src="GA_hierarchy.png" width="500" /> [^7] 
+<img src="GA-hierarchy.png" width="500" /> [^7] 
 
 1. Créer un **compte** analytics  [Google Marketing Platform](https://marketingplatform.google.com/home?authuser=0)    
 2. Enregistrer une **propriété** (= site web)   
