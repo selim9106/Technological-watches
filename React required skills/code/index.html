@@ -4,29 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="all" href="normalize.css">
     <link rel="stylesheet" type="text/css" media="all" href="style.css">
     <title>Document</title>
     
 </head>
 <body>
-    <!-- ! Javascript -->
-    <div id="jscontent">
-        <h1>Template Literals</h1>
-    <p id="jstl"></p>
+    <header class="header"><h1>Javascript concepts to know to handle React</h1></header>
+    <main class="main">
+        <!-- ! Javascript -->
+        <div id="jscontent">
+            <section class="main__section">
+            <h2 class="main__title">Javascript Template Literals</h2>
+            <pre class="pre">
+                <code class=" code language-javascript">
+let message ='Hi';
+let firstname ='Jacob';
+let jstl = document.getElementById('jstl');
+jstl.innerHTML = `output: \"${message} ${firstname}\"`;
+                </code>
+             </pre>
+                <p class="output" id="jstl"></p>
+            </section>
 
-    </div>
-
-    
-    <!-- ! React -->
-    <div id="root">
+        </div>
 
         
-    </div>
+        <!-- ! React -->
+        <div id="root">
 
+            
+        </div>
+    </main>
+
+    <!-- <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script> -->
     <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script src="script.js" type="text/babel"></script>
+    <script src="javascript.js"></script>
+    <!-- <script src="React.js" type ="text/babel"></script> -->
+    <!-- <script src="javascript.js"></script> -->
 
 </body>
 </html>
