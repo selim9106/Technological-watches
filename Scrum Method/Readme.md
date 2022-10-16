@@ -6,7 +6,7 @@ Les méthodologies Agile sont issues du *Manifeste pour le développement agile 
 Elles s'opposent au [modèle en cascade](https://fr.wikipedia.org/wiki/Mod%C3%A8le_en_cascade) (*waterfall*) qui se base sur des exigences exprimées en début de projet et où chaque phase ne commence qu'après avoir validé les résultats de la précédente.   
 [^1]: [Wikipedia | Manifeste Agile](https://fr.wikipedia.org/wiki/Manifeste_agile);
 
-<img src="837px-Modèle_en_cascade_générique.png" width=700>[^2]   
+<img src="assets/pictures/837px-Modèle_en_cascade_générique.png" width=700>[^2]   
 
 ### Les défaults du modèle en cascade
 
@@ -20,7 +20,7 @@ Le modèle en cascade convient au projet clairements définis qui appellent à d
 
 ## Les Méthodes Agiles
 
-### [The Manifesto for Agile Software Development](https://github.com/selim9106/tech-talks/blob/main/agile-manifesto-download-2019.pdf)
+### [The Manifesto for Agile Software Development](https://github.com/selim9106/tech-talks/blob/main/Scrum%20Method/assets/files/agile-manifesto-download-2019.pdf)
 
 Edité en 2001, le manifeste est rédigé par 17 experts du développement logiciel dans le but d'améliorer le process, le modèle en cascade ne repondant plus, selon eux, aux exigeances des organisations en perpetuelle evolution.    
 Ensemble, ces experts définissent, dans ce manifeste, des critères, issus de leurs concepts respectifs, pour définir une nouvelle façon de développer des logiciels. Ainsi, le manifeste recense les dénominateurs communs à différentes méthodes existantes et les qualifie d'« agile ». Les valeurs et principes Agile sont défendus par l'[Agile Alliance](https://www.agilealliance.org/).
@@ -59,7 +59,7 @@ Decouvrir comment mieux développer des logiciels (par la pratique et en aidant 
 Toute méthode dite agile prévoit le **fractionnement des étapes de développement logiciel**, la **fixation d’objectifs à court terme** et requiert d'**ajuster, au besoin, les objectifs pour répondre aux attentes du client**. L'accent est mis sur la relation équipe-client et la collaboration/communication des membres de l'équipe.   
 Flexibilité et souplesse dans l’organisation sont les deux piliers fondamentaux des méthodes agile.[^4]
 
-<img src="0_65DbU_Hc5fBMIrbO.png" width=400>
+<img src="assets/pictures/0_65DbU_Hc5fBMIrbO.png" width=400>
 
 [^4]: [Journal du Net: Méthode agile : définition, comparatif et avantages](https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443838-methode-agile-definition-comparatif-et-avantages/)
 
@@ -104,7 +104,7 @@ On peut dégager 6 principes :
 
 Des **daily scrum meetings** permettent à l'équipe de développement de faire le point au quotidien (tâches réalisées, points de blocage, objetifs du jour) et use comme support d'un **[scrum board](https://www.appvizer.fr/magazine/operations/gestion-de-projet/scrum-board)**, inspiré de la méthode Kanban.
 
-<img src="Scrum-Board.png" width=400>[^6]
+<img src="assets/pictures/Scrum-Board.png" width=400>[^6]
 [^6]: [Nira | The Top 10 Scrum Boards You Should Be Using](https://nira.com/scrum-board/)
 
 ### Avantages
@@ -141,7 +141,7 @@ Le Scrum Master est chargé de planifier les **étapes de chaque sprint**, à sa
 
 Le Scrum Master conçoit le BDC ([burndown chart](https://fr.wikipedia.org/wiki/Burndown_chart)) qui illustre la quantité de travail restant (axe vertical) pour le temmps estimé (axe horizontal).
 
-<img src="wZll2tv7A1xaNx8YkIAegQ.png" width=600>[^7]
+<img src="assets/pictures/wZll2tv7A1xaNx8YkIAegQ.png" width=600>[^7]
 [^7]: Burndown chart example (Source : [DZone | The ideal Burndown Chart](https://dzone.com/articles/the-ideal-burn-down-chart))
 
 #### Product Owner
@@ -155,11 +155,11 @@ Pour ce faire, il rédige et alimente régulièrement un [backlog](https://hubvi
 
 [^8]: *"Phrase simple, rédigée dans un langage courant, qui permet de décrire avec suffisamment de précision le contenu d’une fonctionnalité à développer. Dans la méthode agile Scrum dont elle est issue, la User Story est censée illustrer un besoin fonctionnel exprimé par les types d’utilisateurs."* (Source : [Hubvisory | Comment bien rédiger une User Story ?](https://hubvisory.com/blog/user-stories-comment-bien-les-rediger/))
 
-<img src="image1_1_1_ikgcix.png" width=600>
+<img src="assets/pictures/image1_1_1_ikgcix.png" width=600>
 
 Pour faciliter les retours des utilisateurs, Scrum conseille de mettre en place si besoin des **user tests** à l'issue de chaque sprint.
 
-<img src="Scrum-process-schema-FR-small.png" width=800>[^9]
+<img src="assets/pictures/Scrum-process-schema-FR-small.png" width=800>[^9]
 
 [^9]:(Source : [tuleap | "Comprendre la méthode Agile Scrum en 10 min"](https://www.tuleap.org/fr/agile/comprendre-methode-agile-scrum-10-minutes))
 
