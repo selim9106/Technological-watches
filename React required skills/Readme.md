@@ -467,6 +467,13 @@ console.log(result); // output: "-13";
 
 
 ## Links
+- [freeCodeCamp | "Top JavaScript Concepts to Know Before Learning React"](https://www.freecodecamp.org/news/top-javascript-concepts-to-know-before-learning-react/)
+- [Robin Wieruch | "JavaScript fundamentals before learning React"](https://www.robinwieruch.de/javascript-fundamentals-react-requirements/#map-reduce-and-filter-in-react)
+- [Medium | "The 2022 React JS Developer RoadMap [Updated]"](https://medium.com/javarevisited/the-2019-react-js-developer-roadmap-9a8e290b8a56)
+- [KentCDodds | "Javascript to know for React"](https://kentcdodds.com/blog/javascript-to-know-for-react)
+- [freeCodeCamp | "The JavaScript Skills You Need For React (+ Practical Examples)"](https://www.freecodecamp.org/news/javascript-skills-you-need-for-react-practical-examples/)
+- [Youtube (Kodaps Academy) | "The 7 JavaScript Skills You Need For React!"](https://www.youtube.com/watch?v=pL703Vv-9bY)
+- [w3docs | "Learn Javascript"](https://www.w3docs.com/learn-javascript.html)
 
 
 [^1]: Une bibliothèque ou *library* permet au développeur d'utiliser des fonctionnalités qui n'ont pas nécessairement de corrélations entre elles. Le *framework* est un cadre de travail applicatif qui permet au développeur de bénéficier d'une architecture efficace afin de structurer son travail. Les frameworks empruntent la plupart du temps leurs composants et fonctionnalités aux librairies ([source](https://code-garage.fr/blog/librairie-vs-framework-quelle-est-la-difference/#:~:text=En%20fran%C3%A7ais%2C%20on%20traduit%20le,d%C3%A9corr%C3%A9l%C3%A9es%20les%20unes%20des%20autres.))
@@ -476,5 +483,7 @@ console.log(result); // output: "-13";
 
 ## Bibliographie
 [Coursera | How to Become a React Developer in 3 Steps](https://www.coursera.org/articles/react-developer)   
-[Wikipedia | Application web monopage](https://fr.wikipedia.org/wiki/Application_web_monopage)
+[Wikipedia | Application web monopage](https://fr.wikipedia.org/wiki/Application_web_monopage)   
+[Geeksforgeeks | "JavaScript | Spread Operator](https://www.geeksforgeeks.org/javascript-spread-operator/#:~:text=Spread%20operator%20allows%20an%20iterable,of%20parameters%20from%20an%20array.)   
+
 
