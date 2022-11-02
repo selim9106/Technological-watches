@@ -4,12 +4,9 @@
 
 ### RGPD
 
-**RGPD = Règlement Général sur la Protection des données [^1]**   
-Adopté en 2016 [^2]   
-Remplace la Directive sur la protection des données personnelles de 1995   
-   
-En anglais GDPR (General Data Protection Regulation)
-
+**RGPD = "Règlement Général sur la Protection des données" [^1]**   
+Adopté en 2016 [^2], le RGPD remplace la Directive sur la protection des données personnelles de 1995.   
+En anglais GDPR *(General Data Protection Regulation)*.
 
 [^1]: S'applique aux 27 états membres de l'UE
 [^2]: Conseil du 27 avril 2016
@@ -25,7 +22,7 @@ Toute information relative à une **personne physique** identifiée ou identifia
 - un achat ;
 - toute information susceptible de permettre l'identification d'une personne physique.
 
-Note: les coordonnées génériques d'entreprises ne sont pas assimilées à des données personnelles.
+*Note: les coordonnées génériques d'entreprises ne sont pas assimilées à des données personnelles.*
 
 ### Traitement de donnée
 
@@ -34,10 +31,10 @@ ayant un objectif défini.
 
 ### Violation de données [^3]
 
-Tout(e) incident/violation de sécurité entraînant des conséquences telles que:   
-- l'altération/perte/destruction
-- la divulgation ou l’accès non autorisé aux données.
-et qui par extension compromet la confidentialité et l'intégrité
+Tout(e) incident/violation de sécurité entraînant des conséquences sur les données telles que:   
+- l'altération/perte/destruction;
+- la divulgation ou l’accès non autorisé;   
+et qui par extension compromet leur confidentialité et leur intégrité.
 
 [^3]:https://www.cnil.fr/sites/default/files/atoms/files/cybersecurite_-_chiffres_2021.pdf
 
@@ -45,24 +42,24 @@ et qui par extension compromet la confidentialité et l'intégrité
 
 **Objectifs**   
 
-Accroître:  
-1. la protection des personnes concernées par un traitement de leurs données à caractère personnel  
-2. la responsabilisation des acteurs de ce traitement  
+L'objectif premier principal est d'accroître:  
+1. la protection des personnes concernées par un traitement de leurs données à caractère personnel;  
+2. la responsabilisation des acteurs de ce traitement.  
    
-**But also**
+**mais aussi**
     
-- Adaptation aux évolutions technologiques (commerce en ligne,...)   
-- Transparence vis-à-vis de l'internaute/du consommateur et liberté de contrôle   
-- Harmoniser les règles en UE   
-- offrir un cadre juridique aux professionnels
+- Permettre l'adaptation aux évolutions technologiques (commerce en ligne,...);   
+- Garantir une transparence vis-à-vis de l'internaute/du consommateur de même que sa liberté de contrôle;   
+- Harmoniser les règles au sein de l'Union Européenne;   
+- Offrir un cadre juridique aux professionnels.
    
 ## RGPD, pour qui?
 
 Toute personne, entreprise, organisme qui traite des données personelles
-- établis en UE
-- dont l'activité est susceptible de concerner des citoyens ressortissants de l'UE
-- publics ou privés
-- ainsi que leurs sous-traitants
+- établis en UE;
+- dont l'activité est susceptible de concerner des citoyens ressortissants de l'UE;
+- publics ou privés;
+- + leurs sous-traitants;
 
 
 ## Les principes
@@ -73,39 +70,39 @@ Toute personne, entreprise, organisme qui traite des données personelles
 
 La finalité définit la durée de conservation des données.
 
-Exemples: gestion du recrutement, enquête de satisfaction
+*Exemples: gestion du recrutement, enquête de satisfaction.*
 
   
 ### Principe de minimisation
 
-Seules les données utiles à la réalisation des objectifs de l'entreprises peuvent être récoltées
+Seules les données utiles à la réalisation des objectifs de l'entreprises peuvent être récoltées.
   
   
 ### Principe de consentement
 
-- **Préalable** à la récolte     
-- Démarche active de l'utilisateur (liberté)   
-- Requis **à nouveau** en cas d'utilisation des données déjà récoltées à d'autres fins  
+- **Préalable** à la récolte des données;     
+- Démarche active de l'utilisateur (liberté);   
+- Requis **à nouveau** en cas d'utilisation des données déjà récoltées à d'autres fins;  
 
-Exemple: case à cocher lors d'une mise à jour de la politique de confidentialité
+*Exemple: case à cocher lors d'une mise à jour de la politique de confidentialité.*
   
   
 ### Transparence
 
 Les individus doivent être informés:   
-- avec précision des données récoltées
-- des modalités de traitement de ces données
-- des destinataires/identité du responsable de traitement
-- du caractère obligatoire/facultatif des réponses
-- de la durée de conservation (variable) [^4]
-- de la manière dont ils peuvent intervenir sur ces données (consultation, rectification, suppression,...)   
+- avec précision des données récoltées;
+- des modalités de traitement de ces données;
+- des destinataires/identité du responsable de traitement;
+- du caractère obligatoire/facultatif des réponses;
+- de la durée de conservation (variable) [^4] ;
+- de la manière dont ils peuvent intervenir sur ces données (consultation, rectification, suppression,...).   
 
-Remarque: il existe un droit d'opposition à l'utilisation des données pour motifs légitimes.
+*Remarque: il existe un **droit d'opposition** à l'utilisation des données pour motifs légitimes.*
 [^4]: https://www.cnil.fr/fr/les-durees-de-conservation-des-donnees
 
 
 ### Sécurité  
-"Le responsable du traitement est tenu de prendre toutes précautions utiles, au regard de la nature des données et des risques présentés par le traitement, pour préserver la sécurité des données et, notamment, empêcher qu'elles soient déformées, endommagées, ou que des tiers non autorisés y aient accès."[^5]   
+*"Le responsable du traitement est tenu de prendre toutes précautions utiles, au regard de la nature des données et des risques présentés par le traitement, pour préserver la sécurité des données et, notamment, empêcher qu'elles soient déformées, endommagées, ou que des tiers non autorisés y aient accès."*[^5]   
 
 [^5]:Article 121 de la loi Informatique et Libertés
 
@@ -115,19 +112,19 @@ Remarque: il existe un droit d'opposition à l'utilisation des données pour mot
 
 Sanctions graduelles:  
 
-- Avertissement/mise en demeure + rappel des règles
-- Injonction, ordre de cessation immédiate des violations constatées
-- Limitation ou suspension temporaire des traitements ou des flux de données
-- **Sanctions administratives** pour les entreprises qui n'ont pas respecté l'injonction.
-   - essentiellement dissuasives
-   - proportionnées
-   - Jusqu'à 20 millions d'€ ou 4% du chiffre d'affaires  
+- Avertissement/mise en demeure + rappel des règles;
+- Injonction, ordre de cessation immédiate des violations constatées;
+- Limitation ou suspension temporaire des traitements ou des flux de données;
+- **Sanctions administratives** pour les entreprises qui n'ont pas respecté l'injonction:
+   - essentiellement dissuasives;
+   - proportionnées;
+   - **Jusqu'à 20 millions d'€ ou 4% du chiffre d'affaires**.  
  
-- **Sanctions pénales**
+- **Sanctions pénales:**
    - selon l'état
    - En France, les sanctions pénales applicables peuvent atteindre jusqu'à 300 000€ d'amende et entrainer jusqu'à 5 ans d'emprisonnement.
 
-Note: Le 31 décembre 2021, la CNIL a sanctionné la société FACEBOOK IRELAND LIMITED d’une amende d’un montant de 60 millions d’euros parce qu’il n’est pas permis aux utilisateurs du réseau social facebook.com résidant en France de refuser les cookies aussi facilement que de les accepter.[^7]
+*Note: Le 31 décembre 2021, la CNIL a sanctionné la société FACEBOOK IRELAND LIMITED d’une amende d’un montant de 60 millions d’euros parce qu’il n’est pas permis aux utilisateurs du réseau social facebook.com résidant en France de refuser les cookies aussi facilement que de les accepter.*[^7]
 
 [^6]: https://fr.wikipedia.org/wiki/R%C3%A8glement_g%C3%A9n%C3%A9ral_sur_la_protection_des_donn%C3%A9es
 [^7]:https://www.cnil.fr/fr/cookies-sanction-de-60-millions-deuros-lencontre-de-facebook-ireland-limited
@@ -136,7 +133,7 @@ Note: Le 31 décembre 2021, la CNIL a sanctionné la société FACEBOOK IRELAND 
 
 ### Maximillian Schrems
 
-Activiste autrichien qui milite pour la protection des données.  
+Max Schrems est un activiste autrichien qui milite pour la protection des données.  
 
 Etudiant en droit, il demande à Facebook une copie de ses propres données et réalise après analyse que ses informations effacées sont toujours conservées par Facebook (sur des serveurs americains) et ne respectent pas le RGPD. 
 Il s'oppose aux transfert des données des européens vers les USA et suggère comme solution leur délocalisation vers l'Europe ou leur chiffrement.   
@@ -150,9 +147,9 @@ De nouvelles négociations entre les états membres de l'UE et les états-unis d
 
 
 ### RGPD VS CLOUD Act
-La CLOUD act = Clarifying Lawful Overseas Use of Data Act est une loi extra-territoriale qui permet aux instances de justice américaine disposant d’un mandat et de l'autorisation d’un juge, d'accéder à des données, (telles que des communications electroniques) auxprès des fournisseurs de services établis sur le territoire des États-Unis, y compris les données hébergées dans des serveurs informatiques situés à l'étranger.   
+La ***CLOUD act*** (Clarifying Lawful Overseas Use of Data Act) est une loi extra-territoriale qui permet aux instances de justice américaine disposant d’un mandat et de l'autorisation d’un juge, d'accéder à des données, (telles que des communications electroniques) auxprès des fournisseurs de services établis sur le territoire des États-Unis, y compris les données hébergées dans des serveurs informatiques situés à l'étranger.   
 
-Cette loi s'impose aux GAFAM (Google, Apple, Facebook, Amazon et Microsoft) et aux entreprises étrangères ayant une activité aux USA et ne nécessite pas pour les instances judiciaires d'avertir les personnes concernées, ni leur pays de résidence, ni le pays où est localisé le serveur qui contient ces données.   
+Cette loi s'impose aux GAFAM (*Google, Apple, Facebook, Amazon et Microsoft*) et aux entreprises étrangères ayant une activité aux USA et ne nécessite pas pour les instances judiciaires d'avertir les personnes concernées, ni leur pays de résidence, ni le pays où est localisé le serveur qui contient ces données.   
 
 L'argument invoqué est une mesure de protection (lutte contre le terrorisme,...).
 
@@ -169,11 +166,11 @@ Un nouvel accord de principe conclu ce vendredi 25 mars 2022 devra être concré
 [Carte interactive](https://www.cnil.fr/fr/la-protection-des-donnees-dans-le-monde)
 
 Exemples:  
-
+Chaque site web se doit de mentionner explicitement et de détailler l'usage éventuel des données dans sa politique de confidentialité.   
 - [Vinted](https://www.vinted.be/privacy-policy)
 - [Beyoncé shop](https://shop.beyonce.com/pages/privacy)
 
-## Tools and Ressources
+## Outils et ressources
 
 - [RGPD officiel](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679&from=EN)
 - Vérifiez la conformité de votre site avec [Cookiebot](https://www.cookiebot.com/fr/)
