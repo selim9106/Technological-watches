@@ -59,7 +59,7 @@ Toute personne, entreprise, organisme qui traite des données personelles
 - établis en UE;
 - dont l'activité est susceptible de concerner des citoyens ressortissants de l'UE;
 - publics ou privés;
-- + leurs sous-traitants;
+- ainsi que leurs sous-traitants;
 
 
 ## Les principes
