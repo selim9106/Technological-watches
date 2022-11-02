@@ -20,13 +20,13 @@ Des outils pour les PME et pour les entreprises
 - [Search Ads 360](https://marketingplatform.google.com/intl/fr/about/search-ads-360/)
 
 ## Google Analytics: histoire
-- 1995: Urchin Software Corporation lance Urchin: outil d'analye statistique web
-- 2005: Rachat d'Urchin Software qui devient Google Analytics Classic [^1]
-- 2007: Google introduit un code de suivi "ga.js"
-- 2010: le code de suivi devient asynchrone
-- 2012: fin d'Urchin et sortie de Google Universal Analytics en 2013
-- 2020: GA4 sort suite à plusieurs sanctions financières en raison de l'incompatibilité de l'outil avec le RGPD
-- 2023: fin du traitement des nouvelles données d’Universal Analytics [^2]
+- 1995: Urchin Software Corporation lance Urchin: outil d'analye statistique web;
+- 2005: Rachat d'Urchin Software qui devient Google Analytics Classic [^1] ;
+- 2007: Google introduit un code de suivi "*ga.js*";
+- 2010: le code de suivi devient asynchrone;
+- 2012: fin d'Urchin et sortie de Google Universal Analytics en 2013;
+- 2020: GA4 sort suite à plusieurs sanctions financières en raison de l'incompatibilité de l'outil avec le RGPD;
+- 2023: fin du traitement des nouvelles données d’Universal Analytics [^2].
 
 ## GA4
 >*"Annoncé fin de l’année 2020, Google Analytics 4 ou GA4 (anciennement « Application + Web ») se veut la réponse apportée à Google quant à l’évolution du Web
@@ -43,18 +43,18 @@ Un évènement =
 
 La personnalisation de la collecte des données sera réduite.   
 Les adresses IP ne seront plus stockées.   
-Pour en savoir plus: [Comparaison des modèles de données Universal Analytics et Google Analytics 4](https://support.google.com/analytics/answer/9964640#zippy=%2Cau-sommaire-de-cet-article)   
-NB: Google annonce la fin de la collecte des cookies tiers pour 2023 [^4]
+Pour en savoir plus: [Comparaison des modèles de données Universal Analytics et Google Analytics 4](https://support.google.com/analytics/answer/9964640#zippy=%2Cau-sommaire-de-cet-article).      
+*NB: Google annonce la fin de la collecte des cookies tiers pour 2023* [^4]
 
 
 
 
 ## Google Analytics: objectifs
 
-- Analyser l'audience, ses caractéristiques, ses comportements
-- Ajuster sa stratégie marketing
-- Adapter sa communication/son contenu (cibler & personnaliser)
-- Dans un but de conversion (consommation/achat) et de fidélisation des consommateurs
+- Analyser l'audience, ses caractéristiques, ses comportements;
+- Ajuster sa stratégie marketing;
+- Adapter sa communication/son contenu (cibler & personnaliser);
+- Dans un but de conversion (consommation/achat) et de fidélisation des consommateurs.
 
 
 
@@ -68,7 +68,7 @@ NB: Google annonce la fin de la collecte des cookies tiers pour 2023 [^4]
 2. Enregistrer une **propriété** (= site web)   
 3. Configurer des **Vues** paramétrées.[^8]   
 
-GA va générer un tag à insérer dans la balise _<head>_ (sur chaque page)   
+GA va générer un tag à insérer dans la balise _<head>_ (sur chaque page).   
 
 [^8]: N'existe pas dans GA4
 
