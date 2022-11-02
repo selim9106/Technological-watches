@@ -12,9 +12,9 @@ Elles s'opposent au [modèle en cascade](https://fr.wikipedia.org/wiki/Mod%C3%A8
 
 - Processus rigide, nécessite des exigences clairement définies;
 - Pas d'implication du client au cours des différentes étapes de production;
-- En cas de réévauation/insatisfaction, il faut souvent remonter au début de la chaîne, voire rédéfinir les exigences
+- En cas de réévauation/insatisfaction, il faut souvent remonter au début de la chaîne, voire rédéfinir les exigences.
 
-Le modèle en cascade convient au projet clairements définis qui appellent à des technologies bien ficelées (usine, construction).
+Le modèle en cascade convient toutefois aux projets clairements définis qui appellent à des technologies bien ficelées (usine, construction).
 
 [^2]: modèle en cascade;
 
@@ -23,7 +23,7 @@ Le modèle en cascade convient au projet clairements définis qui appellent à d
 ### [The Manifesto for Agile Software Development](https://github.com/selim9106/tech-talks/blob/main/Scrum%20Method/assets/files/agile-manifesto-download-2019.pdf)
 
 Edité en 2001, le manifeste est rédigé par 17 experts du développement logiciel dans le but d'améliorer le process, le modèle en cascade ne repondant plus, selon eux, aux exigeances des organisations en perpetuelle evolution.    
-Ensemble, ces experts définissent, dans ce manifeste, des critères, issus de leurs concepts respectifs, pour définir une nouvelle façon de développer des logiciels. Ainsi, le manifeste recense les dénominateurs communs à différentes méthodes existantes et les qualifie d'« agile ». Les valeurs et principes Agile sont défendus par l'[Agile Alliance](https://www.agilealliance.org/).
+Ensemble, ces experts définissent, dans ce manifeste, des critères, issus de leurs concepts respectifs, pour définir une nouvelle façon de développer des logiciels. Ainsi, le manifeste recense les dénominateurs communs à différentes méthodes existantes et les qualifie d'«&nbsp;*agile*&nbsp;». Les valeurs et principes Agile sont défendus par l'[Agile Alliance](https://www.agilealliance.org/).
 
 
 > *Le développement agile, appelé aussi développement adaptatif, se caractérise donc par un style de conduite de projet itératif incrémental, centré sur l’autonomie des ressources humaines impliquées dans la spécification, la production et la validation d’une application intégrée et testée en continu.   C’est à partir de ces réalités pratiques, et non pas sur la base d’une théorie globale ou structurante, que l’agilité progresse vers les sphères les plus hautes de l’organisation et participe à la création de ce que l'on peut appeler une culture agile de l'organisation.*[^3]
@@ -32,12 +32,12 @@ Ensemble, ces experts définissent, dans ce manifeste, des critères, issus de l
 
 ### [Les 4 valeurs fondamentales](https://agilemanifesto.org/iso/fr/manifesto.html)
 
-Decouvrir comment mieux développer des logiciels (par la pratique et en aidant les autres à le faire) et ainsi valoriser
+Découvrir comment mieux développer des logiciels (par la pratique et en aidant les autres à le faire) et ainsi valoriser:
 
 - Les **individus et leurs interactions** plus que les processus et les outils;   
 - Des **logiciels opérationnels** plus qu’une documentation exhaustive;   
 - La **collaboration avec les clients** plus que la négociation contractuelle;   
-- L’**adaptation au changement** plus que le suivi d’un plan".
+- L’**adaptation au changement** plus que le suivi d’un plan.
 
 ### [Les 12 principes Agile](https://agilemanifesto.org/iso/fr/principles.html)
 
@@ -51,13 +51,13 @@ Decouvrir comment mieux développer des logiciels (par la pratique et en aidant 
 - Instaurer un **rythme de développement soutenable et constant**;
 - **Favoriser l'excellence technique et une bonne conception**;
 - **Minimiser la quantité de travail inutile**;
-- les **equipes autoorganisées** promettent les meilleurs conceptions/projets;
-- A **intervalles réguliers**, **réfléchir en équipe comment optimiser l'efficacité** et **s'ajuster** en fonction;
+- les **équipes autoorganisées** promettent les meilleurs conceptions/projets;
+- A **intervalles réguliers**, **réfléchir en équipe comment optimiser l'efficacité** et **s'ajuster** en fonction.
 
 ### Agile : A retenir
 
 Toute méthode dite agile prévoit le **fractionnement des étapes de développement logiciel**, la **fixation d’objectifs à court terme** et requiert d'**ajuster, au besoin, les objectifs pour répondre aux attentes du client**. L'accent est mis sur la relation équipe-client et la collaboration/communication des membres de l'équipe.   
-Flexibilité et souplesse dans l’organisation sont les deux piliers fondamentaux des méthodes agile.[^4]
+***Flexibilité*** et ***souplesse*** dans l’organisation sont les deux piliers fondamentaux des méthodes agile.[^4]
 
 <img src="assets/pictures/0_65DbU_Hc5fBMIrbO.png" width=400>
 
@@ -73,7 +73,7 @@ Flexibilité et souplesse dans l’organisation sont les deux piliers fondamenta
 - [FDD (Feature-driven Development)](https://fr.wikipedia.org/wiki/D%C3%A9veloppement_bas%C3%A9_sur_les_fonctionnalit%C3%A9s) ;
 - [BDD (Behavior-driven Development)](https://fr.wikipedia.org/wiki/Programmation_pilot%C3%A9e_par_le_comportement) ;
 - [Kanban](https://www.journaldunet.fr/web-tech/guide-de-l-entreprise-digitale/1443832-kanban/) ; 
-- Le framework [Scrum](https://fr.wikipedia.org/wiki/Scrum_(d%C3%A9veloppement)) ;
+- Le framework [Scrum](https://fr.wikipedia.org/wiki/Scrum_(d%C3%A9veloppement)).
 
 ## SCRUM
 
@@ -102,7 +102,7 @@ On peut dégager 6 principes :
 - Les dates d'**échéance** ;
 - Le **développement itératif**.   
 
-Des **daily scrum meetings** permettent à l'équipe de développement de faire le point au quotidien (tâches réalisées, points de blocage, objetifs du jour) et use comme support d'un **[scrum board](https://www.appvizer.fr/magazine/operations/gestion-de-projet/scrum-board)**, inspiré de la méthode Kanban.
+Des **daily scrum meetings** permettent à l'équipe de développement de faire le point au quotidien (tâches réalisées, points de blocage, objetifs du jour) et usent le plus souvent d'un **[scrum board](https://www.appvizer.fr/magazine/operations/gestion-de-projet/scrum-board)**, support inspiré de la méthode Kanban.
 
 <img src="assets/pictures/Scrum-Board.png" width=400>[^6]
 [^6]: [Nira | The Top 10 Scrum Boards You Should Be Using](https://nira.com/scrum-board/)
