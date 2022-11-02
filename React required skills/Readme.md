@@ -2,7 +2,7 @@
 
 ## React
 ### Rappel
-React ou *ReactJS* est une bibliothèque[^1] Javascript opensource dévelopée par Meta (à l'origine *Facebook Inc.*) en 2013 dans le but de faciliter la création de *single-page applications*[^2]. Cette bibliothèque gère l' interace utilisateur (ou UI, soit la "Vue" dans le le modèle MVC[^3]).   
+React ou *ReactJS* est une bibliothèque[^1] Javascript opensource dévelopée par Meta (à l'origine *Facebook Inc.*) en 2013 dans le but de faciliter la&nbsp;création de *single-page applications*[^2]. Cette bibliothèque gère l' interace utilisateur (ou UI, soit la "Vue" dans le le modèle MVC[^3]).   
 React fonctionne majoritairement sur la création de composants réutilisables, généralement rédigé en JSX (*Javascrit Syntax Extension* ou *Javascript XML*)[^4].   
 La Bibliothèque React est utilisée par des entreprises renomées telles que *Netflix*, *Airbnb*, *Discord*, *New York Times*, *Dropbox*, *Yahoo!*, ...
 
@@ -22,7 +22,7 @@ const Header = () => {
 export {Header};
 ```
 
-The *Header* component can be now include in another file.
+Le composant *Header* peut a présent être importé dans un autre fichier.
 
 ```jsx
 // App.js
@@ -192,10 +192,8 @@ Dans les **fonctions fléchées**, this appartient à la scope parent.
   let {firstName: boyfirstname, lastName: boylastname, nickName, personAge: age = 18 } = person;
 
 console.log(firstName); // will output in both cases "John";
-consoe.log(nickName); // output: "undefined" since it doesn't belong to the original object
-and hasn't been assigned to any value;
-console.log(age); // output: "36" because we assigned it the currentAge 
-default value when calling the person's "currentAge" object property;
+consoe.log(nickName); // output: "undefined" since it doesn't belong to the original object and hasn't been assigned to any value;
+console.log(age); // output: "36" because we assigned it the currentAge default value when calling the person's "currentAge" object property;
  
  ```
  
@@ -249,7 +247,7 @@ let son = {...father, firstname: "Hugh", age: 14};
 console.log(son);// output: ">Object { "firstname": "Hugh", "lastname": "Doe", "gender": "male", "age": 14 }"
  ```
  
-L'opérateur spread permet de copier une array (comme un "array.slice()" vide le ferait).
+L'opérateur spread permet de copier une array (comme un *array.slice()* vide le ferait).
 
 ```javascript
 const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
@@ -430,7 +428,7 @@ letters.sort();
 console.log(letters); //output: ">Array [ "b", "d", "l", "s", "x", "z" ]"
 ```
 
-*sort interprète chaque item, y compris les nombres en *string*.
+*sort* interprète chaque item, y compris les nombres en *string*.
 ```javascript
 let numbers = [1, 100, 3, 2, 25];
 
