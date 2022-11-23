@@ -21,3 +21,7 @@ An *agile* method based on short sprints used for projects management.
 ### React required skills
 Javascript main concepts to master before entering into React.   
 **&rarr; [Click here](/React%20required%20skills)**
+
+### HTML tips
+HTML tips: some *tags* and *attributes* you should use that will make you save some time.   
+**&rarr; [Click here](/HTML%20tips)**
