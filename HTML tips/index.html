@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="HTML Tips." />
+<meta property="og:description" content="HTML Tips." />
+<meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML tips</title>
+</head>
+<body>
+    <header>
+    <h1>HTML tips</h1>
+    </header>
+
+<!-- * HTML Accordeon -->
+        <h2><em>details/summary</em> tags</h2>
+    <details>  
+        <summary>Details/Summary</summary> 
+            Adding <strong>&lt;summary&gt;</strong> and <strong>&lt;details&gt;</strong> tags allows to implement accordeon without using any script or CSS methods.<br>
+            This way improves accessibility for keybords or screenreaders users and does not require html attributes like <em>id</em> or <em>data-*</em>
+    </details>
+
+    <details open>  
+        <summary>Default opened tab</summary> 
+            Use the same syntax but use <strong>&lt;details open&gt;</strong>.
+    </details>
+
+<pre><code class="language-html">&lt;details&gt;  
+    &lt;summary&gt;Visible title&lt;/summary&gt; 
+    Text content displayed on click.
+&lt;/details&gt;</code></pre>
+
+    <p>source: <a href="https://evolvingweb.com/blog/building-accordions-html5-details-tag-no-javascript-needed">Building Accordions With the HTML5 Details Tag (No JavaScript Needed)</a></p>
+
+<!-- * Audio/video capture input -->
+    <h2>Video/Audio capture input</h2>
+    <p>The <em>capture</em> attribute allows access to mobile device's microphone/camera.<br>
+        Notice it won't access your computers microphone/camera.</p>
+
+    <p>
+        <label for="soundFile">Upload a live voice recording :</label>
+        <input type="file" id="soundFile" capture="user" accept="audio/*" />
+    </p>
+<pre><code class="language-html">&lt;input type="file" id="soundFile" capture="user" accept="audio/*" /&gt;</code></pre>
+
+    <p>
+        <label for="videoFile">Upload a live video</label>
+        <input type="file" id="videoFile" capture="environment" accept="video/*" />
+    </p>
+<pre><code class="language-html">&lt;input type="file" id="videoFile" capture="environment" accept="video/*" /&gt;</code></pre>
+
+    <p><strong>Note:</strong> the <em>user</em> value will get the user-facing camera while the <em>environment</em> value will get the outward-facing.</p>
+
+<!-- * Audio/video player -->
+    <h2>The <em>audio</em> tag</h2>
+
+    <audio controls autoplay>
+       <source src = "/html5/audio.ogg" type = "audio/ogg" />
+       <source src = "/html5/audio.wav" type = "audio/wav" />
+        Your browser does not support the audio element.
+   </audio>
+<br><br><br>
+<pre><code class="language-html">&lt;audio controls autoplay&gt;
+    &lt;source src = "/html5/audio.ogg" type = "audio/ogg" /&gt;
+    &lt;source src = "/html5/audio.wav" type = "audio/wav" /&gt;
+        Your browser does not support the audio element.
+&lt;/audio&gt;</code></pre>
+
+<!-- * Ordered lists -->
+    <h2>Ordered lists notation/start</h2>
+
+    <ol type="A">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <ol type="I">
+  <li>Introduction</li>
+  <li>First Principles</li>
+  <li>Second Principles</li>
+  <li>Third Principles</li>
+</ol>
+
+<pre><code class="language-html">&lt;ol type="A"&gt; // or &lt;ol type="I"&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ol&gt;</code>
+</pre>
+
+<p>Note: after 26 items, list will keep on going with <em>AA.</em>, <em>AB.</em>, ...</p>
+
+<ol start="4">
+  <li>Step 4</li>
+  <li>Step 5</li>
+</ol>
+
+<pre><code class="language-html">&lt;ol start="4"&gt;
+    &lt;li&gt;Step 4&lt;/li&gt;
+    &lt;li&gt;Step 5&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+
+<p>Note: the <em>start</em> attribute only works with <strong>numbers</strong>.</p>
+
+<!-- * Mark -->
+<h2>The <em>mark</em> tag</h2>
+
+<p>You can higlight text using <mark>the <strong>&lt;mark&gt;</strong>tag</mark>.</p>
+
+<!-- *spellcheck -->
+<h2>The <em>spellcheck</em> attribute</h2>
+
+<p>When set to <em>true</em>, will automatically check for spelling while user edit the content.</p>
+
+<textarea spellcheck="true">This exampull will be checkd fur spellung.
+Et ça machre ausis en frnaçais.</textarea>
+
+<pre><code class="language-html">&lt;textarea spellcheck="true"&gt;This exampull will be checkd fur spellung.
+Et ça machre ausis en frnaçais.&lt;/textarea&gt;</code></pre>
+
+<h2>The <em>translate</em> attribute</h2>
+<p>This attribute prevent browser to translate some content to keep it in its original language.</p>
+
+<pre><code class="language-html">&lt;p&gt; translate="no">Ne pas Traduire ce Paragraphe&lt;/p&gt;</code></pre>
+
+<!-- * Datalist Tag -->
+<h2>The <em>datalist</em> tag</h2>
+
+<p>Similar to the select option, display is more subtle.</p>
+<form action="">
+        <label>Chose a car model: </label>
+        <input list="cars" id="carsInput" />
+ 
+        <!--datalist Tag starts here -->
+        <datalist id="cars">
+            <option value="BMW" />
+            <option value="Bentley" />
+            <option value="Mercedes" />
+            <option value="Audi" />
+            <option value="Volkswagen" />
+        </datalist>
+        <!--datalist Tag ends here -->
+ 
+        <button onclick="datalistcall()" type="button">
+            Click Here
+        </button>
+ 
+    </form>
+
+    <p id="carmodel"></p>
+
+<pre>
+<code class="language-html">&lt;label&gt;Chose a car model: &lt;/label&gt;
+    &lt;input list="cars" id="carsInput" /&gt;
+
+    &lt;datalist id="cars">
+        &lt;option value="BMW" /&gt;
+        &lt;option value="Bentley" /&gt;
+        &lt;option value="Mercedes" /&gt;
+        &lt;option value="Audi" /&gt;
+        &lt;option value="Volkswagen" /&gt;
+    &lt;/datalistm&gt;
+
+&lt;button onclick="datalistcall()" type="button"&gt;Click Here&lt;/button&gt;</code>
+</pre>
+
+<!-- * Canvas -->
+<h2>The <em>canvas</em> tag</h2>
+<p>Create a zone you can fill with shapes/sketches or use as a free drawing space.</p>
+<canvas id="canvas" width="500" height="230" style="border:2px solid;"></canvas>  
+
+<pre><code class="language-html">&lt;canvas id="canvas" width="400" height="100" style="border:2px solid;"&gt;
+</code></pre>
+<pre><code class="language-javascript">//script:
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+
+// red rectangle:
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(100, 20, 80, 80);
+
+// blue rectangle:
+ctx.fillStyle = "rgba(0, 0, 200, 0.8)";
+ctx.fillRect(60, 70, 50, 100);
+
+// circle:
+ctx.fillStyle = "#FFFFFF";
+ctx.arc(300, 75, 50, 0, 2 * Math.PI);
+ctx.fill();</code></pre>
+
+
+<!-- *SVG -->
+<h2>Vector Graphics</h2>
+<svg id = "svgelem" height = "110" xmlns = "http://www.abc.org/2000/svg">
+      <circle id = "redcircle" cx = "50" cy = "50" r = "50" fill = "red" />
+ </svg>
+
+ <svg width="200" height="120">
+  <rect x="20" y="10" rx="20" ry="20" width="140" height="90" style="fill:rgb(55, 208, 255);stroke:rgb(240, 230, 230);stroke-width:5;opacity:0.5" />
+</svg>
+
+<pre><code class="language-html">&lt;svg id = "svgelem" height = "200" xmlns = "http://www.abc.org/2000/svg"&gt;
+      &lt;circle id = "redcircle" cx = "50" cy = "50" r = "50" fill = "red" /&gt;
+ &lt;/svg&gt;
+
+&lt;svg width="200" height="120"&gt;
+  &lt;rect x="20" y="10" rx="20" ry="20" width="140" height="90" style="fill:rgb(55, 208, 255);stroke:rgb(240, 230, 230);stroke-width:5;opacity:0.5" /&gt;
+&lt;/svg&gt;</code>
+</pre>
+
+<p><strong>Note:</strong> While <em>canvas</em> is rendered pixel by pixel, SVG is XML based and generate elements available whithin de DOM. Which means they can handle events.</p>
+<!-- * OUTPUT Tag -->
+<h2>The <em>output</em> tag</h2>
+<p>The empty <em>output</em> get updated with a result value generated by a script that execute a calculation.</p>
+
+<form oninput="sumresult.value = parseInt(firstnum.value) + parseInt(secondnum.value)">
+        <input type="number" name="firstnum" value="50" />
+        <input type="number" name="secondnum" value="0" />
+        <br>
+        <strong>Sum = </strong> <output name="sumresult"></output>
+</form>
+
+<pre>
+<code class="language-html">&lt;form oninput="sumresult.value = parseInt(firstnum.value) + parseInt(secondnum.value)"&gt;
+        &lt;input type="number" name="firstnum" value="50" /&gt;
+        &lt;input type="number" name="secondnum" value="0" /&gt;
+        &lt;span&gt;Sum = &lt;/span&gt; &lt;output name="sumresult">&lt;/output&gt;
+&lt;/form&gt;</code></pre>
+
+
+
+<!-- *Progress -->
+<h2>The <em>progress</em> tag</h2>
+<span>Loading:</span>
+
+    <progress value="55" max="100"></progress>
+<p>The progress tag takes a value + a max value</p>
+
+<pre><code class="language-html">&lt;progress value="55" max="100"&gt;&lt;/progress&gt;</code></pre>
+
+<p>This tag requires Javascript to update the value.</p>
+<button onClick="displayProgress()">Run Progress Bar</button>
+<progress value="0" id="downloadProgress" max="30">Hello</progress>
+<span id="message"></span>
+
+<pre><code class="language-html">&lt;button onClick="displayProgress()"&gt;Run Progress Bar&lt;/button&gt;
+&lt;progress value="0" id="downloadProgress" max="30">Hello&lt;/progress&gt;
+
+&lt;script&gt;</code><code class="language-javascript">
+let milisec=0
+let max=30
+function displayProgress(){
+
+	if(milisec>=max){
+	document.getElementById('message').innerHTML="Done!";
+	}
+	 
+	milisec+=1;
+	document.getElementById('downloadProgress').value=milisec;
+	setTimeout("displayProgress()",max);
+}</code>
+<code class="language-html">&lt;/script&gt;</code></pre>
+
+<p><strong>Source:</strong><a href="https://www.quackit.com/html/tags/html_progress_tag.cfm#:~:text=The%20HTML%20tag%20represents,(which%20represents%20a%20gauge)."> HTML &lt;progress&gt; Tag</a></p>
+
+<!-- * METER -->
+<h2>The <em>meter</em> tag</h2>
+
+<p>The <em>meter</em> tag allows to display <strong>static</strong> value.<br>
+Define <em>min</em>, <em>max</em> and a current <em>value</em> to generate a gauge.<br>
+Specify <em>high</em>, <em>low</em>ans <em>optimum</em> values update color content.</p>
+
+<meter id="score"
+       min="0" max="100"
+       low="30" high="66" optimum="80"
+       value="70">
+</meter>
+<meter id="score"
+       min="0" max="100"
+       low="30" high="66" optimum="80"
+       value="20">
+</meter>
+<meter id="score"
+       min="0" max="100"
+       low="30" high="66" optimum="80"
+       value="50">
+</meter>
+
+<pre><code class="language-html">&lt;meter id="score" min="0" max="100"
+    low="30" high="66" optimum="80"
+    value="50"&gt;
+&lt;/meter&gt;</code></pre>
+
+<h2>The <em>time</em> tag</h2>
+<p>The <em>time</em> tag allows machines like search engines to read temporal values inside texts.<br>
+    It takes the attribute <em>datetime</em>.</p>
+    
+<pre><code>&lt;time datetime = "2018-09-28 19:00"&gt; le 28 septembre&lt;/time&gt;</code></pre>
+
+
+<button id="share-button">Share</button><a id="sharelink"></a>
+
+
+
+
+<h2>Deprecated HTML features</h2>
+
+<p>A non exhaustive list of deprecated features in HTML5:
+</p>
+<li><em>acronym</em></li>
+<li><em>applet</em></li>
+<li><em>basefont</em></li>
+<li><em>big</em></li>
+<li><em>center</em></li>
+<li><em>dir</em></li>
+<li><em>font</em></li>
+<li><em>frame</em></li>
+<li><em>frameset</em></li>
+<li><em>isindex</em></li>
+<li><em>noframes</em></li>
+<li><em>noscript</em></li>
+<li><em>s</em></li>
+<li><em>strike</em></li>
+<li><em>tt</em></li>
+<li><em>u</em></li>
+<p><strong>SOURCE:</strong> <a href="https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-html-5-4ce9d62bf114">[Medium | Faizan Khan] : "What’s new in HTML 5?"</a></p>
+
+
+
+
+
+
+<!-- * SCRIPT -->
+<script>
+    // canva squares
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(100, 20, 80, 80);
+ctx.fillStyle = "rgba(0, 0, 200, 0.8)";
+ctx.fillRect(60, 70, 50, 100);
+ctx.beginPath();
+ctx.fillStyle = "#FFFFFF";
+ctx.arc(300, 75, 50, 0, 2 * Math.PI);
+ctx.fill();
+
+// Progress section
+let milisec=0
+let max=30
+function displayProgress(){
+
+	if(milisec>=max){
+	document.getElementById('message').innerHTML="Done!";
+	}
+	 
+	milisec+=1;
+	document.getElementById('downloadProgress').value=milisec;
+	setTimeout("displayProgress()",max);
+}
+
+
+//  OUTPUT Section
+
+function datalistcall() {
+    let carmodel = document.getElementById("carsInput").value;
+    document.getElementById("carmodel").innerHTML = "You select " + carmodel + " option";
+}
+
+
+    // Make sure you write this code inside the 
+        // script tag of your HTML file 
+  
+        // Facebook share url
+        const fbShare = "https://www.facebook.com/sharer/sharer.php?u="
+  
+        // Storing the URL of the current webpage
+        const URL = window.location.href;
+        // We used the slice method to remove 
+        // the 'http://' from the prefix 
+  
+        // Displaying the current webpage link
+        // on the browser window 
+        const link = document.querySelector('#sharelink');
+        const button = document.querySelector('#share-button');
+  
+        // Adding a mouse click event listener to the button
+        button.addEventListener('click', () => {
+            // Displaying the current webpage link
+            // on the browser window 
+            link.textContent = fbShare+URL;
+            link.href = fbShare+URL;
+      
+            // Displaying in the console
+            console.log(fbShare+URL);
+        });
+</script>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
