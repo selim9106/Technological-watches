@@ -24,4 +24,4 @@ Javascript main concepts to master before entering into React.
 
 ### HTML tips
 HTML tips: some *tags* and *attributes* you should use that will make you save some time.   
-**&rarr; [Click here](/HTML%20tips)**
+**&rarr; [Click here](/Technological-watches/HTML%20tips)**
