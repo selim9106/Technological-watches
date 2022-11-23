@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="HTML Tips." />
-<meta property="og:description" content="HTML Tips." />
-<meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" />
+    <meta property="og:description" content="HTML Tips." />
+    <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" />
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
     <link rel="stylesheet" href="style.css">
     <title>HTML tips</title>
@@ -70,6 +70,7 @@
         Your browser does not support the audio element.
 &lt;/audio&gt;</code></pre>
 
+<p><strong>Note:</strong> add the <em>loop</em> attribute to start over everytime track ends.</em><br>Same attributes works with the <em>video</em> tag.</p>
 <!-- * Ordered lists -->
     <h2>Ordered lists notation/start</h2>
 
@@ -108,9 +109,18 @@
 <p>Note: the <em>start</em> attribute only works with <strong>numbers</strong>.</p>
 
 <!-- * Mark -->
-<h2>The <em>mark</em> tag</h2>
+<h2>Some useful <em>inline</em> tags</h2>
 
 <p>You can higlight text using <mark>the <strong>&lt;mark&gt;</strong>tag</mark>.</p>
+<p>You can <s>cross out text</s> without any CSS rule using the <strong>&lt;s&gt;</strong> tag</p>
+<p>Use the <strong>&lt;abbr&gt;</strong> tag with a <em>title</em> attribute to display the meaning of a word/<abbr title="abbreviation">abbr</abbr> when the user hovers on it</p>
+
+<!-- * Time -->
+<h2>The <em>time</em> tag</h2>
+<p>The <em>time</em> tag allows machines like search engines to read temporal values inside texts.<br>
+    It takes the attribute <em>datetime</em>.</p>
+    
+<pre><code>&lt;time datetime = "2018-09-28 19:00"&gt; le 28 septembre&lt;/time&gt;</code></pre>
 
 <!-- *spellcheck -->
 <h2>The <em>spellcheck</em> attribute</h2>
@@ -127,6 +137,15 @@ Et ça machre ausis en frnaçais.&lt;/textarea&gt;</code></pre>
 <p>This attribute prevent browser to translate some content to keep it in its original language.</p>
 
 <pre><code class="language-html">&lt;p&gt; translate="no">Ne pas Traduire ce Paragraphe&lt;/p&gt;</code></pre>
+
+<!-- * Tabindex -->
+<h2>The <em>tabindex</em> attribute</h2>
+
+<p tabindex="1">Allows to manage priority when user uses tab to navigate through the <a href ="#" tabindex="2"><page>   </page></a>.</p>
+
+<pre><code class="language-html">&lt;p tabindex="1"&gt;Allows to manage priority when user uses tab to navigate through the &lt;a href ="#" tabindex="2"&gt;page&lt;/a&gt;.&lt;/p&gt;</code></pre>
+
+<p><em>Note: consider semantic first to optimize accessibility</em></p>
 
 <!-- * Datalist Tag -->
 <h2>The <em>datalist</em> tag</h2>
@@ -296,18 +315,43 @@ Specify <em>high</em>, <em>low</em>ans <em>optimum</em> values update color cont
     value="50"&gt;
 &lt;/meter&gt;</code></pre>
 
-<h2>The <em>time</em> tag</h2>
-<p>The <em>time</em> tag allows machines like search engines to read temporal values inside texts.<br>
-    It takes the attribute <em>datetime</em>.</p>
-    
-<pre><code>&lt;time datetime = "2018-09-28 19:00"&gt; le 28 septembre&lt;/time&gt;</code></pre>
 
+<!-- * MAP/Areas -->
+<h2>Images mapping with <em>area</em> tags</h2>
 
-<button id="share-button">Share</button><a id="sharelink"></a>
+<p>Add a <em>usemap</em> attribute to the image you want to define clickable areas so you can add different links depending on where the user clicks.</p>
 
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
 
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://en.wikipedia.org/wiki/Laptop">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://en.wikipedia.org/wiki/Smartphone">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://en.wikipedia.org/wiki/Coffee">
+</map>
 
+<pre><code class="language-html">&lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379"&gt;
 
+&lt;map name="workmap"&gt;
+  &lt;area shape="rect" coords="34,44,270,350" alt="Computer" href="https://en.wikipedia.org/wiki/Laptop"&gt;
+  &lt;area shape="rect" coords="290,172,333,250" alt="Phone" href="https://en.wikipedia.org/wiki/Smartphone"&gt;
+  &lt;area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://en.wikipedia.org/wiki/Coffee"&gt;
+&lt;/map&gt;</code></pre>
+
+<p><strong>Note:</strong> <em>area</em> always works within a <em>map</em> tag and requires to define coordinates.</p>
+
+<!-- * OG MEta -->
+<h2><em>Open Graph</em> meta tags</h2>
+
+<p>Launched by Facebook in 2010, <em>Open Graph</em> is a protocol that optimise web pages representation when they got shared on social networks.</p>
+
+<pre><code class="language-html">&lt;meta property="og:title" content="HTML Tips." /&gt;
+&lt;meta property="og:description" content="HTML Tips." /&gt;
+&lt;meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" /&gt;</code></pre>
+
+<p><strong>SOURCE:</strong> <a href="https://www.oncrawl.com/oncrawl-seo-thoughts/what-you-need-to-know-about-open-graph/">Open Graph: what you need to know</a>.</p>
+<p><strong>More about OG:</strong> <a href="https://ahrefs.com/blog/open-graph-meta-tags/">Open Graph Meta Tags: Everything You Need to Know</a>.</p>
+<p><strong>Note:</strong> Twitter uses its own <em>twitter:*</em> properties for Twitter Cards (<a href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started">twitter doc</a>).</p>
+<!-- ! Deprecated features -->
 <h2>Deprecated HTML features</h2>
 
 <p>A non exhaustive list of deprecated features in HTML5:
@@ -372,32 +416,7 @@ function datalistcall() {
 }
 
 
-    // Make sure you write this code inside the 
-        // script tag of your HTML file 
-  
-        // Facebook share url
-        const fbShare = "https://www.facebook.com/sharer/sharer.php?u="
-  
-        // Storing the URL of the current webpage
-        const URL = window.location.href;
-        // We used the slice method to remove 
-        // the 'http://' from the prefix 
-  
-        // Displaying the current webpage link
-        // on the browser window 
-        const link = document.querySelector('#sharelink');
-        const button = document.querySelector('#share-button');
-  
-        // Adding a mouse click event listener to the button
-        button.addEventListener('click', () => {
-            // Displaying the current webpage link
-            // on the browser window 
-            link.textContent = fbShare+URL;
-            link.href = fbShare+URL;
-      
-            // Displaying in the console
-            console.log(fbShare+URL);
-        });
+
 </script>
 
 <script src="script.js"></script>
