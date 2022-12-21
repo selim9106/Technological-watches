@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './CourseGoalItem.css';
+import './Item.css';
 
-const CourseGoalItem = props => {
+const Item = props => {
   // const [deleteText, setDeleteText] = useState('');
 
   const deleteHandler = () => {
@@ -17,4 +17,4 @@ const CourseGoalItem = props => {
   );
 };
 
-export default CourseGoalItem;
+export default Item;

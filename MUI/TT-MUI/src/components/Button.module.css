@@ -1,19 +1,17 @@
 .button {
   width:100%;
+  margin-top: 1rem;
+  font-size: 0.6rem;
+  font-weight: semibold;
   font: inherit;
   padding: 0.5rem 1.5rem;
-  border: 1px solid #8b005d;
+  border: 2px solid #7c3464;
   color: white;
-  background: #8b005d;
+  background: #4b4345;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
   cursor: pointer;
+  border-radius: 0.6rem;
 }
-
-@media (min-with: 768px) {
-    .button  {
-      width:auto
-    };
-  }
 
 .button:focus {
   outline: none;
@@ -24,4 +22,10 @@
   background: #ac0e77;
   border-color: #ac0e77;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}
+
+@media (min-width:768px) {
+  .button {
+    width:auto;
+  }
 }

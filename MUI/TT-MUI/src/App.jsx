@@ -1,49 +1,50 @@
 import React, { useState } from "react";
-import CourseGoalList from "./components/CourseGoals/CourseGoalList/CourseGoalList";
-import CourseInput from "./components/CourseGoals/CourseInput/CourseInput_copy";
+
+import ItemsList from "./components/ItemsList";
+import TextInput from "./components/TextInput";
 import "./App.css";
 
 const App = () => {
-  const [courseGoals, setCourseGoals] = useState([
-    { text: "Do all exercises!", id: "g1" },
-    { text: "Finish the course!", id: "g2" },
+  const [items, setItems] = useState([
+    { text: "CSS Modules", id: "i1" },
+    { text: "Finish the tech talk", id: "i2" },
   ]);
 
-  const addGoalHandler = (enteredText) => {
-    setCourseGoals((prevGoals) => {
-      const updatedGoals = [...prevGoals];
-      updatedGoals.unshift({ text: enteredText, id: Math.random().toString() });
-      return updatedGoals;
+  const addItemHandler = (enteredText) => {
+    setItems((prevItems) => {
+      const updatedItems = [...prevItems];
+      updatedItems.unshift({ text: enteredText, id: Math.random().toString() });
+      return updatedItems;
     });
   };
 
   const deleteItemHandler = (goalId) => {
-    setCourseGoals((prevGoals) => {
+    setItems((prevGoals) => {
       const updatedGoals = prevGoals.filter((goal) => goal.id !== goalId);
       return updatedGoals;
     });
   };
 
   let content = (
-    <p style={{ textAlign: "center" }}>No goals found. Maybe add one?</p>
+    <p style={{ textAlign: "center" }}>No items found. Add some</p>
   );
 
-  if (courseGoals.length > 0) {
+  if (items.length > 0) {
     content = (
-      <CourseGoalList items={courseGoals} onDeleteItem={deleteItemHandler} />
+      <ItemsList items={items} onDeleteItem={deleteItemHandler} />
     );
   }
 
   return (
     <div>
-      <section id="goal-form">
-        <CourseInput onAddGoal={addGoalHandler} />
+      <section id="item-form">
+        <TextInput onAddItem={addItemHandler} />
       </section>
-      <section id="goals">
+      <section id="items">
         {content}
-        {/* {courseGoals.length > 0 && (
+        {/* {items.length > 0 && (
           <CourseGoalList
-            items={courseGoals}
+            items={items}
             onDeleteItem={deleteItemHandler}
           />
         ) // <p style={{ textAlign: 'center' }}>No goals found. Maybe add one?</p>
