@@ -5,7 +5,7 @@ Material UI est une librairie de composants React qui implémente les composants
 
 
 [^1]: Source: [Material UI Overview](https://mui.com/material-ui/getting-started/overview/)
-[^2]: Pour l'heure, les composants de la librairie *Material Design 3* sont destinés à Android et disposés à être utilisés avec Flutter et Jetpack Compose. Un déploiement pour le web est en cours d'élaboration. En attendant, *Material Design 2*, la version antérieure, propose des composants web (Source: [Material Web](https://m3.material.io/develop/web))
+[^2]: Pour l'heure, les composants de la librairie *Material Design 3* sont destinés à Android et disposés à être utilisés avec Flutter et Jetpack Compose. Un déploiement pour le web est en cours d'élaboration. En attendant, *Material Design 2*, la version antérieure, propose des composants web (Source: [Material Web](https://m3.material.io/develop/web)).
 
 Le principe des composants web repose sur l'encapsulement de fonctionnalités au sein d'un même élement qui peut ensuite être réutilisé sans crainte dans une interface/un projet[^3].
 
@@ -339,11 +339,43 @@ export default TextInput;
 ```
 
 ## MUI
+*Material UI v5* se base actuellement sur la version 2 de *Material Design*. La MUIv6 devrait adopter la version 3 de Material Design, qui ne propose pas sencore de composants pour tous les supports.   
+
+### [Installation](https://mui.com/material-ui/getting-started/installation/)
+Par défaut, MUI utilise la librairie *[emotion](https://emotion.sh/docs/introduction)* pour générer les styles CSS dans Javascript. Toutefois, il est possible de configurer une installation avec *styled-components*
+
+#### Avec *emotion*:
+```
+npm install @mui/material @emotion/react @emotion/styled
+```
+#### Avec *styled-components*:
+```
+npm install @mui/material @mui/styled-engine-sc styled-components
+```
+Par défaut, MUI utilise la font *Roboto*, il est recommandé de l'installer (manuellement ou via le CDN de *Google Fonts*).
+```
+npm install @fontsource/roboto
+```
+```html
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
+```
+De la même manière les icones utilisés par MUI nécessitent l'installation (manuelle ou CDN) de la font *[Material Icons](https://fonts.google.com/icons?icon.set=Material+Icons)*.
+```
+npm install @mui/icons-material
+```
+```html
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+```
+
+**Note**: Pour les développeurs désireux d'avoir le contrôle total du style de l'interface, MUI a développé  *[MUI Base](https://mui.com/base/getting-started/overview/)*, une librairie de composants React qui n'implémente pas les standards de Material Design et permet donc davantage de liberté. A noter, qu'elle est encore en version alpha.
+
+
+### 
 
 ## Other components libraries
 Bien qu'il soit possible d'actualiser le style d'un composant de façon "classique", cette méthode ne permet pas l'encapsulement et par conséquent le style attribué est susceptible de toucher d'autres éléments de l'interface.
 
-## Links
+# Links
 - [Material Design | Github](https://github.com/material-components)
 - [Material Design 2](https://m2.material.io/)
 - [Material Design 3](https://m3.material.io/)
@@ -353,4 +385,6 @@ Bien qu'il soit possible d'actualiser le style d'un composant de façon "classiq
 - [Awesome Styed Components | Github](https://github.com/styled-components/awesome-styled-components)
 - [*"Mieux gérer CSS dans les gros projets grâce aux CSS modules."* | Jérôme Boukorras](https://medium.com/just-tech-it-now/mieux-g%C3%A9rer-css-dans-les-gros-projets-gr%C3%A2ce-aux-css-modules-662b9cf84000)
 
+# Bibliography
+- ["How to use styled components with Material UI in a React app" (Benjamin Stirrup) | Sipios](https://www.sipios.com/blog-tech/how-to-use-styled-components-with-material-ui-in-a-react-app)
 
