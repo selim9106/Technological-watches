@@ -1,7 +1,7 @@
 # [MUI](https://mui.com/)
 
 ## Introduction
-Material UI est une librairie de composants React qui implémente les composants *[Material Design](https://m3.material.io/)* de Google[^1][^2]. Ceux-ci sont donc conçus pour optimiser l'expérience utilisateur (UX) et constituent donc une référence fiable pour les designers et développeurs.   
+Material UI est une librairie de composants React qui implémente les composants UI  *[Material Design](https://m3.material.io/)* de Google[^1][^2]. Ceux-ci sont donc conçus pour optimiser l'expérience utilisateur (UX) et constituent donc une référence fiable pour les designers et développeurs.   
 
 
 [^1]: Source: [Material UI Overview](https://mui.com/material-ui/getting-started/overview/)
@@ -51,7 +51,7 @@ Il est de modifier l'apparence d'un composant en faisant appel à la propriété
 
 *Exemple: Nous voulons alerter subtilement l'utilisateur qu'il a omis de remplir le champ "input" lors de l'ajout d'un intem à la liste en changeant la couleur du label et de l'input*
 
-<img src="screenshots\item-app.png" width="300"><img src="screenshots\item-app-invalid-form.png" width="300">   
+<img src="screenshots\item-app.png" width="300">      <img src="screenshots\item-app-invalid-form.png" width="300">   
 
 ```jsx
 // TextInput.jsx
@@ -339,7 +339,15 @@ export default TextInput;
 ```
 
 ## MUI
-*Material UI v5* se base actuellement sur la version 2 de *Material Design*. La MUIv6 devrait adopter la version 3 de Material Design, qui ne propose pas sencore de composants pour tous les supports.   
+La documentation propose différentes librairies de comoposants dont la syntaxe et l'usage sont similaires.
+
+- [Material UI](https://mui.com/material-ui/getting-started/overview/): elle permet l'implémentation de composants UI Basée sur la librairie *[Material Design v2](https://m2.material.io/)* de Google
+- [MUI Base](https://mui.com/base/getting-started/overview/) permet plus de liberté en proposant des composants non stylisés et dispense ainsi donc d'*overrider* des styles par défaut. La librairie est pour l'instant disponible en version alpha.
+- [Joy UI](https://mui.com/joy-ui/getting-started/overview/) : une librairie open-source de composants React developpées par MUI qui implémente ses propres [standards](https://mui.com/joy-ui/getting-started/overview/#principles).
+- [MUI System](https://mui.com/system/getting-started/overview/) reprend des composants structurels (*Box*, *Container*, ...) customisables via la propriété `sx` (voir ci-dessous). Elle fonctionne de paire avec *Material UI* ou *MUI Base* et est incluse dans leur installation.
+
+
+Pour chacune des librairies, la documentation recense l'ensembles des composants, leur usage, leur apparence (selon leur états), leurs propriétés (dans l'onglet *component API*) et propose des exemples.  
 
 ### [Installation](https://mui.com/material-ui/getting-started/installation/)
 Par défaut, MUI utilise la librairie *[emotion](https://emotion.sh/docs/introduction)* pour générer les styles CSS dans Javascript. Toutefois, il est possible de configurer une installation avec *styled-components*
@@ -363,11 +371,122 @@ De la même manière les icones utilisés par MUI nécessitent l'installation (m
 ```
 npm install @mui/icons-material
 ```
+***Note:*** *l'installation avec Vite peut entraîner certains conflits*
+
 ```html
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
 ```
+Il est recommandé d'insérer le composant ***[CSS Baseline](https://mui.com/material-ui/react-css-baseline/)***, qui fait office de *reset/normalize.css*.
 
-**Note**: Pour les développeurs désireux d'avoir le contrôle total du style de l'interface, MUI a développé  *[MUI Base](https://mui.com/base/getting-started/overview/)*, une librairie de composants React qui n'implémente pas les standards de Material Design et permet donc davantage de liberté. A noter, qu'elle est encore en version alpha.
+### Usage
+
+Chaque composant possède des propriétés standards qui peuvent prendre certaines valeurs afin d'en modifier le rendu.
+
+```jsx
+// import Material UI Card component
+import Card from '@mui/material/Card';
+// or import multple material components
+import { Box, Card, CardActions, CardContent, Button, Typography } from '@mui/material';
+
+const card = (
+  <React.Fragment>
+    <CardContent>
+      <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        Date
+      </Typography>
+      <Typography variant="h5" component="div">
+        Card Component
+      </Typography>
+      <Typography variant="body2">
+        Card description
+      </Typography>
+    </CardContent>
+    <CardActions>
+      <Button size="small">Learn More</Button>
+    </CardActions>
+  </React.Fragment>
+);
+
+export default function OutlinedCard() {
+  return (
+    <Box sx={{ minWidth: 275 }}>
+      <Card variant="outlined">{card}</Card>
+    </Box>
+  );
+}
+```
+
+the OutlinedCard component will rendr like this:
+
+<img src="./screenshots/card-example.png" width=275>
+
+### Customize Components
+#### Les thèmes
+MUI utilise un [thème par défaut](https://mui.com/material-ui/customization/default-theme/) qui comporte une série de propriétés définies selon les composants de Material UI (ou Joy UI selon la configuration).   
+Il est néanmoins possible d'*updater* certaines valeurs pour personnaliser son application. Celles-ci peuvent être testées sur le [Material-UI Theme Creator](https://bareynol.github.io/mui-theme-creator/). 
+
+Pour customiser le thème par défaut, il est nécessaire d'importer le composent *ThemeProvider* et d'encapsuler le composant ou l'application ciblée.
+
+```jsx
+import { red } from '@mui/material/colors';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+
+const theme = createTheme({
+  palette: {
+    mode: dark,
+    primary: {
+      main: red[500],
+    },
+  },
+});
+
+function App() {
+  return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <main>
+      This app is using the dark mode
+      </main>
+    </ThemeProvider>
+      );
+}
+```
+
+
+#### La propriété `sx`
+Comme évoqué ci-dessus, [la propriété sx](https://mui.com/system/getting-started/the-sx-prop/)  permet d'inclure des propriétés CSS aux composants *Box*, *Container*, *Grid*, ... 
+
+
+
+```jsx
+const BoxComponent = () => {
+  return (
+    <Box>
+    <Box sx={{
+        display: 'flex',
+        flexDirection: { xs: 'column', md: 'row' },
+        alignItems: 'center',
+        color: 'text.secondary',
+        display: 'inline',
+        fontSize: 12
+    }}>
+    boxcontent
+    </Box>
+    <Box
+        component="img"
+        sx={{
+          height: 233,
+          width: 350,
+          maxHeight: { xs: 233, md: 167 },
+          maxWidth: { xs: 350, md: 250 },
+        }}
+        alt="The house from the offer."
+        src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&w=350&dpr=2"
+      />
+    </Box>
+  )
+}
+```
 
 
 ### 
@@ -376,6 +495,7 @@ npm install @mui/icons-material
 Bien qu'il soit possible d'actualiser le style d'un composant de façon "classique", cette méthode ne permet pas l'encapsulement et par conséquent le style attribué est susceptible de toucher d'autres éléments de l'interface.
 
 # Links
+- [LEARN MUI (official doc free videos)](https://mui.com/material-ui/getting-started/learn/)
 - [Material Design | Github](https://github.com/material-components)
 - [Material Design 2](https://m2.material.io/)
 - [Material Design 3](https://m3.material.io/)
@@ -384,6 +504,7 @@ Bien qu'il soit possible d'actualiser le style d'un composant de façon "classiq
 - [Styled Components | Github](https://github.com/styled-components/styled-components)
 - [Awesome Styed Components | Github](https://github.com/styled-components/awesome-styled-components)
 - [*"Mieux gérer CSS dans les gros projets grâce aux CSS modules."* | Jérôme Boukorras](https://medium.com/just-tech-it-now/mieux-g%C3%A9rer-css-dans-les-gros-projets-gr%C3%A2ce-aux-css-modules-662b9cf84000)
+- [Material Icons | Google Fonts](https://fonts.google.com/icons?icon.set=Material+Icons)
 
 # Bibliography
 - ["How to use styled components with Material UI in a React app" (Benjamin Stirrup) | Sipios](https://www.sipios.com/blog-tech/how-to-use-styled-components-with-material-ui-in-a-react-app)
