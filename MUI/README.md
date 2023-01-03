@@ -452,11 +452,8 @@ function App() {
 }
 ```
 
-
 #### La propriété `sx`
 Comme évoqué ci-dessus, [la propriété sx](https://mui.com/system/getting-started/the-sx-prop/)  permet d'inclure des propriétés CSS aux composants *Box*, *Container*, *Grid*, ... 
-
-
 
 ```jsx
 const BoxComponent = () => {
@@ -487,13 +484,17 @@ const BoxComponent = () => {
   )
 }
 ```
-
-
-### 
-
 ## Other components libraries
-Bien qu'il soit possible d'actualiser le style d'un composant de façon "classique", cette méthode ne permet pas l'encapsulement et par conséquent le style attribué est susceptible de toucher d'autres éléments de l'interface.
+Il existe de nombreux concurrents à MUI tels que:
+- [Flowbite](https://flowbite.com/)
+- [Shoelace](https://shoelace.style/)
+- [NextUI](https://nextui.org/)
+- [Tailgrids](https://tailgrids.com/)
+- [Tailwind Elements](https://tailwind-elements.com/)
+- ...[^5] [^6]
 
+[^5]: [Top 35 UI Component Libraries in 2022 | FrontendPlanet](https://www.frontendplanet.com/top-ui-component-libraries/)
+[^6]: [20+ Best React UI Component Libraries / Frameworks for 2023 | codeinwp](https://www.codeinwp.com/blog/react-ui-component-libraries-frameworks/)
 # Links
 - [LEARN MUI (official doc free videos)](https://mui.com/material-ui/getting-started/learn/)
 - [Material Design | Github](https://github.com/material-components)
@@ -505,7 +506,13 @@ Bien qu'il soit possible d'actualiser le style d'un composant de façon "classiq
 - [Awesome Styed Components | Github](https://github.com/styled-components/awesome-styled-components)
 - [*"Mieux gérer CSS dans les gros projets grâce aux CSS modules."* | Jérôme Boukorras](https://medium.com/just-tech-it-now/mieux-g%C3%A9rer-css-dans-les-gros-projets-gr%C3%A2ce-aux-css-modules-662b9cf84000)
 - [Material Icons | Google Fonts](https://fonts.google.com/icons?icon.set=Material+Icons)
+- [Material Icons | MUI](https://mui.com/material-ui/material-icons/)
+- [Top 35 UI Component Libraries in 2022 | FrontendPlanet](https://www.frontendplanet.com/top-ui-component-libraries/)
+- [20+ Best React UI Component Libraries / Frameworks for 2023 | codeinwp](https://www.codeinwp.com/blog/react-ui-component-libraries-frameworks/)
 
 # Bibliography
 - ["How to use styled components with Material UI in a React app" (Benjamin Stirrup) | Sipios](https://www.sipios.com/blog-tech/how-to-use-styled-components-with-material-ui-in-a-react-app)
+- ["How to Style Your React App – 5 Ways to Write CSS in 2021" | Reed Barger (FreeCodeCamp)](https://www.freecodecamp.org/news/how-to-style-react-apps-with-css/)
+- ["Mieux gérer CSS dans les gros projets grâce aux CSS modules." | Jérôme Boukorras](https://medium.com/just-tech-it-now/mieux-g%C3%A9rer-css-dans-les-gros-projets-gr%C3%A2ce-aux-css-modules-662b9cf84000)
+
 
