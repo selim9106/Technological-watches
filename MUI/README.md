@@ -497,6 +497,8 @@ Il existe de nombreux concurrents à MUI tels que:
 [^6]: [20+ Best React UI Component Libraries / Frameworks for 2023 | codeinwp](https://www.codeinwp.com/blog/react-ui-component-libraries-frameworks/)
 # Links
 - [LEARN MUI (official doc free videos)](https://mui.com/material-ui/getting-started/learn/)
+- ["How to use styled components with Material UI in a React app" | Benjamin Stirrup](https://www.sipios.com/blog-tech/how-to-use-styled-components-with-material-ui-in-a-react-app)
+- ["Styling a React App with Material UI" | Ashutosh Singh](https://www.pluralsight.com/guides/styling-a-react-app-with-material-ui)
 - [Material Design | Github](https://github.com/material-components)
 - [Material Design 2](https://m2.material.io/)
 - [Material Design 3](https://m3.material.io/)
@@ -514,5 +516,17 @@ Il existe de nombreux concurrents à MUI tels que:
 - ["How to use styled components with Material UI in a React app" (Benjamin Stirrup) | Sipios](https://www.sipios.com/blog-tech/how-to-use-styled-components-with-material-ui-in-a-react-app)
 - ["How to Style Your React App – 5 Ways to Write CSS in 2021" | Reed Barger (FreeCodeCamp)](https://www.freecodecamp.org/news/how-to-style-react-apps-with-css/)
 - ["Mieux gérer CSS dans les gros projets grâce aux CSS modules." | Jérôme Boukorras](https://medium.com/just-tech-it-now/mieux-g%C3%A9rer-css-dans-les-gros-projets-gr%C3%A2ce-aux-css-modules-662b9cf84000)
+- ["Moving from SCSS to styled-components: Advantages and caveats" | Eslam Hefnawy](https://blog.logrocket.com/moving-from-scss-to-styled-components-advantages-and-caveats/)
+- ["Best ways to style a React-JS application" | Asad Zubair Bhatti](https://blog.devgenius.io/best-ways-to-style-a-react-js-application-c818b71f6341)
+- ["TailwindCSS vs Styled-Components in ReactJs" | Will Holmes](https://dev.to/willholmes/tailwindcss-vs-styled-components-in-reactjs-188j)
+- ["The Essential Guide to MUI Styled Components" | Jon Middaugh](https://smartdevpreneur.com/material-ui-styled-components/)
+- ["Styled Components in Material UI (MUI) with Styled Utility" | Rasaf Ibrahim](https://dev.to/rasaf_ibrahim/styled-components-in-material-ui-mui-with-styled-utility-3l3j)
+- ["How to use Material-ui (v5) with styled-components" | Abdurakhimov Sardor](https://medium.com/@abdurakhimov.sardor/how-to-use-and-customize-material-ui-version-5-with-styled-components-295e62562e61)
+- ["Styled components, the styling library for your React apps you don’t want to be without" | Chris Noring](https://softchris.github.io/pages/react-styled-components.html#installing-and-setting-up-styled-components)
+- ["The Pros and Cons of Using Styled Components in React" | Mary Gathoni](https://www.makeuseof.com/styled-components-react-pros-cons/)
+- [MUI v5 with Emotion | NETWORKSYNAPSE](https://networksynapse.net/development/mui-v5-material-with-emotion/#comment-888)
+- [Material UI Themes in React | NETWORKSYNAPSE](https://networksynapse.net/development/javascript/using-material-ui-themes/)
+- [MUI Themes Fully-Featured with MUI v5 | NETWORKSYNAPSE](https://networksynapse.net/development/mui-v5-themes/)
+
 
 
